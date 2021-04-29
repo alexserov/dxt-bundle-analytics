@@ -605,7 +605,7 @@ var data = [
         target: "/ui/button.js"
     },
     {
-        source: "/ui/tag_box.js",
+        source: "/data_helper.js",
         weight: 3934,
         target: "/data/data_source/utils.js"
     },
@@ -815,7 +815,7 @@ var data = [
         target: "/core/templates/template_base.js"
     },
     {
-        source: "/ui/button.js",
+        source: "/core/template_manager.js",
         weight: 633,
         target: "/core/templates/function_template.js"
     },
@@ -860,7 +860,7 @@ var data = [
         target: "/ui/scroll_view/ui.scrollable.js"
     },
     {
-        source: "/ui/overlay/ui.overlay.js",
+        source: "/ui/context_menu/ui.context_menu.js",
         weight: 12644,
         target: "/animation/position.js"
     },
@@ -920,7 +920,7 @@ var data = [
         target: "/localization/intl/number.js"
     },
     {
-        source: "/ui/button.js",
+        source: "/ui/select_box.js",
         weight: 4577,
         target: "/ui/widget/utils.ink_ripple.js"
     },
@@ -940,7 +940,7 @@ var data = [
         target: "/ui/toolbar/ui.toolbar.strategy.js"
     },
     {
-        source: "/data/data_source/data_source.js",
+        source: "/data/data_source/utils.js",
         weight: 7985,
         target: "/data/utils.js"
     },
@@ -960,7 +960,7 @@ var data = [
         target: "/data/abstract_store.js"
     },
     {
-        source: "/data/data_source/data_source.js",
+        source: "/data/data_source/utils.js",
         weight: 10866,
         target: "/data/custom_store.js"
     },
@@ -1020,7 +1020,7 @@ var data = [
         target: "/ui/context_menu/ui.menu_base.js"
     },
     {
-        source: "/ui/tree_list/ui.tree_list.column_chooser.js",
+        source: "/ui/tree_list/ui.tree_list.state_storing.js",
         weight: 805,
         target: "/ui/tree_list/ui.tree_list.core.js"
     },
@@ -1330,7 +1330,7 @@ var data = [
         target: "/core/http_request.js"
     },
     {
-        source: "/ui/drop_down_editor/ui.drop_down_list.js",
+        source: "/ui/grid_core/ui.grid_core.search.js",
         weight: 482,
         target: "/data/query.js"
     },
@@ -1350,12 +1350,12 @@ var data = [
         target: "/ui/selection/selection.js"
     },
     {
-        source: "/ui/validation_summary.js",
+        source: "/ui/action_sheet.js",
         weight: 27472,
         target: "/ui/collection/ui.collection_widget.edit.js"
     },
     {
-        source: "/ui/drop_down_menu.js",
+        source: "/ui/action_sheet.js",
         weight: 17324,
         target: "/ui/popover.js"
     },
@@ -1375,7 +1375,7 @@ var data = [
         target: "/ui/validation_message.js"
     },
     {
-        source: "/ui/form/ui.form.layout_manager.js",
+        source: "/ui/grid_core/ui.grid_core.filter_panel.js",
         weight: 6361,
         target: "/ui/check_box.js"
     },
@@ -1585,7 +1585,7 @@ var data = [
         target: "/ui/grid_core/ui.grid_core.header_filter_core.js"
     },
     {
-        source: "/ui/grid_core/ui.grid_core.filter_sync.js",
+        source: "/ui/grid_core/ui.grid_core.filter_panel.js",
         weight: 27958,
         target: "/ui/filter_builder/utils.js"
     },
@@ -1640,7 +1640,7 @@ var data = [
         target: "/ui/collection/ui.collection_widget.base.js"
     },
     {
-        source: "/ui/context_menu/ui.menu_base.edit.strategy.js",
+        source: "/ui/collection/ui.collection_widget.edit.js",
         weight: 3072,
         target: "/ui/collection/ui.collection_widget.edit.strategy.plain.js"
     },
@@ -1670,7 +1670,7 @@ var data = [
         target: "/ui/list/item.js"
     },
     {
-        source: "/ui/tabs.js",
+        source: "/ui/list/ui.list.base.js",
         weight: 9043,
         target: "/ui/collection/ui.collection_widget.live_update.js"
     },
@@ -2125,7 +2125,7 @@ var data = [
         target: "/ui/text_box/texteditor_button_collection/index.js"
     },
     {
-        source: "/ui/text_box/ui.text_editor.mask.strategy.input_events.js",
+        source: "/ui/text_box/ui.text_editor.mask.strategy.default.js",
         weight: 6637,
         target: "/ui/text_box/ui.text_editor.mask.strategy.base.js"
     },
@@ -2255,7 +2255,7 @@ var data = [
         target: "/renovation/ui/number_box.js"
     },
     {
-        source: "/renovation/ui/pager/page_size/small.js",
+        source: "/renovation/ui/pager/pages/small.js",
         weight: 474,
         target: "/renovation/ui/pager/utils/calculate_values_fitted_width.js"
     },
@@ -2275,7 +2275,7 @@ var data = [
         target: "/ui/calendar/ui.calendar.views.js"
     },
     {
-        source: "/renovation/ui/select_box.js",
+        source: "/renovation/ui/number_box.js",
         weight: 4762,
         target: "/renovation/ui/common/dom_component_wrapper.js"
     },

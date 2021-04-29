@@ -540,7 +540,7 @@ var data = [
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/mouse.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },
@@ -735,7 +735,7 @@ var data = [
         target: "/ui/selection/selection.js"
     },
     {
-        source: "/data/data_source/utils.js",
+        source: "/data/data_source/data_source.js",
         weight: 7985,
         target: "/data/utils.js"
     },
@@ -755,7 +755,7 @@ var data = [
         target: "/data/abstract_store.js"
     },
     {
-        source: "/data/data_source/utils.js",
+        source: "/data/data_source/data_source.js",
         weight: 10866,
         target: "/data/custom_store.js"
     },
@@ -825,7 +825,7 @@ var data = [
         target: "/data/array_query.js"
     },
     {
-        source: "/data/abstract_store.js",
+        source: "/data/custom_store.js",
         weight: 2534,
         target: "/data/store_helper.js"
     },

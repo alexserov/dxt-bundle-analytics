@@ -35,7 +35,7 @@ var data = [
         target: "./node_modules/rrule/dist/esm/src/rruleset.js"
     },
     {
-        source: "./node_modules/rrule/dist/esm/src/rruleset.js",
+        source: "./node_modules/rrule/dist/esm/src/rrulestr.js",
         weight: 5414,
         target: "./node_modules/rrule/dist/esm/src/dateutil.js"
     },
@@ -45,7 +45,7 @@ var data = [
         target: "./node_modules/rrule/dist/esm/src/iterresult.js"
     },
     {
-        source: "./node_modules/rrule/dist/esm/src/rruleset.js",
+        source: "./node_modules/rrule/dist/esm/src/rrulestr.js",
         weight: 10274,
         target: "./node_modules/tslib/tslib.es6.js"
     },
@@ -65,7 +65,7 @@ var data = [
         target: "./node_modules/rrule/dist/esm/src/parsestring.js"
     },
     {
-        source: "./node_modules/rrule/dist/esm/src/rruleset.js",
+        source: "./node_modules/rrule/dist/esm/src/rrule.js",
         weight: 3370,
         target: "./node_modules/rrule/dist/esm/src/optionstostring.js"
     },
@@ -90,7 +90,7 @@ var data = [
         target: "./node_modules/rrule/dist/esm/src/datetime.js"
     },
     {
-        source: "./node_modules/rrule/dist/esm/src/iterset.js",
+        source: "./node_modules/rrule/dist/esm/src/optionstostring.js",
         weight: 1502,
         target: "./node_modules/rrule/dist/esm/src/datewithzone.js"
     },
@@ -835,7 +835,7 @@ var data = [
         target: "/ui/scheduler/workspaces/ui.scheduler.work_space.indicator.js"
     },
     {
-        source: "/ui/scheduler/workspaces/ui.scheduler.timeline_day.js",
+        source: "/ui/scheduler/workspaces/ui.scheduler.timeline_week.js",
         weight: 21659,
         target: "/ui/scheduler/workspaces/ui.scheduler.timeline.js"
     },
@@ -895,7 +895,7 @@ var data = [
         target: "/events/core/event_registrator.js"
     },
     {
-        source: "/data/data_source/utils.js",
+        source: "/data/data_source/data_source.js",
         weight: 7985,
         target: "/data/utils.js"
     },
@@ -915,7 +915,7 @@ var data = [
         target: "/data/abstract_store.js"
     },
     {
-        source: "/data/data_source/utils.js",
+        source: "/data/data_source/data_source.js",
         weight: 10866,
         target: "/data/custom_store.js"
     },
@@ -1115,7 +1115,7 @@ var data = [
         target: "/ui/tabs/item.js"
     },
     {
-        source: "/ui/scheduler/workspaces/ui.scheduler.work_space.js",
+        source: "/ui/tabs.js",
         weight: 20207,
         target: "/ui/scroll_view/ui.scrollable.js"
     },
@@ -1300,7 +1300,7 @@ var data = [
         target: "/renovation/ui/scheduler/workspaces/month/date_table/layout.js"
     },
     {
-        source: "/data/custom_store.js",
+        source: "/data/query_implementation.js",
         weight: 17438,
         target: "/data/array_query.js"
     },
@@ -1335,7 +1335,7 @@ var data = [
         target: "/core/options/option_manager.js"
     },
     {
-        source: "/ui/collection/ui.collection_widget.base.js",
+        source: "/core/template_manager.js",
         weight: 4371,
         target: "/core/utils/template_manager.js"
     },
@@ -1395,7 +1395,7 @@ var data = [
         target: "/ui/overlay/z_index.js"
     },
     {
-        source: "/ui/collection/ui.collection_widget.base.js",
+        source: "/ui/tabs/item.js",
         weight: 3263,
         target: "/ui/collection/item.js"
     },
@@ -1530,7 +1530,7 @@ var data = [
         target: "/ui/radio_group.js"
     },
     {
-        source: "/ui/text_area.js",
+        source: "/ui/tag_box.js",
         weight: 1703,
         target: "/ui/text_box/utils.scroll.js"
     },
@@ -1550,7 +1550,7 @@ var data = [
         target: "/ui/scheduler/rendering_strategies/ui.scheduler.appointmentsPositioning.strategy.adaptive.js"
     },
     {
-        source: "/ui/scheduler/workspaces/ui.scheduler.work_space.grouped.strategy.vertical.js",
+        source: "/ui/scheduler/workspaces/ui.scheduler.work_space.grouped.strategy.horizontal.js",
         weight: 825,
         target: "/ui/scheduler/workspaces/ui.scheduler.work_space.grouped.strategy.js"
     },
@@ -1650,7 +1650,7 @@ var data = [
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/mouse.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },
@@ -1660,7 +1660,7 @@ var data = [
         target: "/animation/easing.js"
     },
     {
-        source: "/ui/selection/selection.strategy.standard.js",
+        source: "/ui/selection/selection.strategy.deferred.js",
         weight: 5899,
         target: "/ui/selection/selection.strategy.js"
     },
@@ -1680,7 +1680,7 @@ var data = [
         target: "/events/swipe.js"
     },
     {
-        source: "/ui/draggable.js",
+        source: "/ui/scroll_view/ui.scrollable.simulated.js",
         weight: 1558,
         target: "/ui/scroll_view/animator.js"
     },
@@ -1845,7 +1845,7 @@ var data = [
         target: "/renovation/ui/scheduler/consts.js"
     },
     {
-        source: "/renovation/ui/scheduler/workspaces/base/header_panel/date_header/layout.js",
+        source: "/renovation/ui/scheduler/workspaces/base/time_panel/layout.js",
         weight: 2593,
         target: "/renovation/ui/scheduler/workspaces/base/row.js"
     },
@@ -1985,7 +1985,7 @@ var data = [
         target: "/ui/list/ui.list.edit.decorator.js"
     },
     {
-        source: "/ui/list/ui.list.edit.decorator.switchable.button.js",
+        source: "/ui/list/ui.list.edit.decorator.switchable.slide.js",
         weight: 7497,
         target: "/ui/list/ui.list.edit.decorator.switchable.js"
     },
@@ -2040,7 +2040,7 @@ var data = [
         target: "/renovation/ui/scheduler/workspaces/base/group_panel/vertical/row.js"
     },
     {
-        source: "/renovation/ui/scheduler/workspaces/base/group_panel/vertical/layout.js",
+        source: "/renovation/ui/scheduler/workspaces/base/group_panel/horizontal/layout.js",
         weight: 540,
         target: "/renovation/ui/scheduler/workspaces/base/group_panel/group_panel_layout_props.js"
     },
@@ -2120,7 +2120,7 @@ var data = [
         target: "/renovation/ui/scheduler/workspaces/base/group_panel/vertical/cell.js"
     },
     {
-        source: "/renovation/ui/scheduler/workspaces/base/group_panel/vertical/row.js",
+        source: "/renovation/ui/scheduler/workspaces/base/group_panel/horizontal/row.js",
         weight: 383,
         target: "/renovation/ui/scheduler/workspaces/base/group_panel/row_props.js"
     },
@@ -2205,7 +2205,7 @@ var data = [
         target: "/ui/text_box/texteditor_button_collection/index.js"
     },
     {
-        source: "/ui/text_box/ui.text_editor.mask.strategy.input_events.js",
+        source: "/ui/text_box/ui.text_editor.mask.strategy.default.js",
         weight: 6637,
         target: "/ui/text_box/ui.text_editor.mask.strategy.base.js"
     },
@@ -2215,7 +2215,7 @@ var data = [
         target: "/ui/number_box/number_box.spin.js"
     },
     {
-        source: "/ui/date_box/ui.date_box.strategy.date_view.js",
+        source: "/ui/date_box/ui.date_box.strategy.calendar.js",
         weight: 3672,
         target: "/ui/date_box/ui.date_box.strategy.js"
     },

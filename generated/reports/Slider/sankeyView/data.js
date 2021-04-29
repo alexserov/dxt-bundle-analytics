@@ -410,7 +410,7 @@ var data = [
         target: "/core/memorized_callbacks.js"
     },
     {
-        source: "/core/renderer_base.js",
+        source: "/core/utils/public_component.js",
         weight: 2926,
         target: "/core/element_data.js"
     },
@@ -430,7 +430,7 @@ var data = [
         target: "/core/remove_event.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/touch.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
@@ -830,12 +830,12 @@ var data = [
         target: "/core/http_request.js"
     },
     {
-        source: "/ui/selection/selection.strategy.standard.js",
+        source: "/ui/selection/selection.strategy.deferred.js",
         weight: 482,
         target: "/data/query.js"
     },
     {
-        source: "/ui/selection/selection.strategy.standard.js",
+        source: "/ui/selection/selection.strategy.deferred.js",
         weight: 5899,
         target: "/ui/selection/selection.strategy.js"
     },

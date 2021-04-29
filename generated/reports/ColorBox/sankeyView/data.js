@@ -265,7 +265,7 @@ var data = [
         target: "/core/memorized_callbacks.js"
     },
     {
-        source: "/core/renderer_base.js",
+        source: "/core/utils/public_component.js",
         weight: 2926,
         target: "/core/element_data.js"
     },
@@ -365,12 +365,12 @@ var data = [
         target: "/core/utils/support.js"
     },
     {
-        source: "/animation/position.js",
+        source: "/core/utils/position.js",
         weight: 2253,
         target: "/core/utils/browser.js"
     },
     {
-        source: "/events/click.js",
+        source: "/ui/draggable.js",
         weight: 1603,
         target: "/events/pointer.js"
     },
@@ -640,7 +640,7 @@ var data = [
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mouse.js",
+        source: "/events/pointer/mspointer.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },
@@ -835,7 +835,7 @@ var data = [
         target: "/ui/load_indicator.js"
     },
     {
-        source: "/ui/text_box/ui.text_editor.mask.strategy.default.js",
+        source: "/ui/text_box/ui.text_editor.mask.strategy.input_events.js",
         weight: 6637,
         target: "/ui/text_box/ui.text_editor.mask.strategy.base.js"
     },
@@ -850,7 +850,7 @@ var data = [
         target: "/ui/number_box/number_box.spin.js"
     },
     {
-        source: "/data/data_source/data_source.js",
+        source: "/data/data_source/utils.js",
         weight: 7985,
         target: "/data/utils.js"
     },
@@ -870,7 +870,7 @@ var data = [
         target: "/data/abstract_store.js"
     },
     {
-        source: "/data/data_source/data_source.js",
+        source: "/data/data_source/utils.js",
         weight: 10866,
         target: "/data/custom_store.js"
     },
@@ -950,12 +950,12 @@ var data = [
         target: "/core/http_request.js"
     },
     {
-        source: "/ui/selection/selection.strategy.standard.js",
+        source: "/ui/selection/selection.strategy.deferred.js",
         weight: 482,
         target: "/data/query.js"
     },
     {
-        source: "/ui/selection/selection.strategy.standard.js",
+        source: "/ui/selection/selection.strategy.deferred.js",
         weight: 5899,
         target: "/ui/selection/selection.strategy.js"
     },

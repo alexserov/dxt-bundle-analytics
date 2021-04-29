@@ -355,7 +355,7 @@ var data = [
         target: "/core/utils/size.js"
     },
     {
-        source: "/events/hover.js",
+        source: "/events/pointer.js",
         weight: 1277,
         target: "/events/core/event_registrator.js"
     },
@@ -535,7 +535,7 @@ var data = [
         target: "/core/utils/template_manager.js"
     },
     {
-        source: "/events/pointer/touch.js",
+        source: "/events/pointer/mspointer.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },

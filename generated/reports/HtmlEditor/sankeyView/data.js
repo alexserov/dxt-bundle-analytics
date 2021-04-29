@@ -375,7 +375,7 @@ var data = [
         target: "/core/utils/object.js"
     },
     {
-        source: "/ui/widget/ui.widget.js",
+        source: "/ui/validation_engine.js",
         weight: 3954,
         target: "/core/utils/array.js"
     },

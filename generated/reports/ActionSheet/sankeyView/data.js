@@ -665,12 +665,12 @@ var data = [
         target: "/events/utils/event_nodes_disposing.js"
     },
     {
-        source: "/events/click.js",
+        source: "/events/core/emitter.feedback.js",
         weight: 2715,
         target: "/events/core/emitter.js"
     },
     {
-        source: "/events/click.js",
+        source: "/events/core/emitter.feedback.js",
         weight: 9524,
         target: "/events/core/emitter_registrator.js"
     },
@@ -690,12 +690,12 @@ var data = [
         target: "/core/http_request.js"
     },
     {
-        source: "/ui/selection/selection.strategy.deferred.js",
+        source: "/ui/selection/selection.strategy.standard.js",
         weight: 482,
         target: "/data/query.js"
     },
     {
-        source: "/ui/selection/selection.strategy.deferred.js",
+        source: "/ui/selection/selection.strategy.standard.js",
         weight: 5899,
         target: "/ui/selection/selection.strategy.js"
     },
@@ -775,12 +775,12 @@ var data = [
         target: "/core/templates/template_engines.js"
     },
     {
-        source: "/events/pointer/touch.js",
+        source: "/events/pointer/mouse.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/mouse.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },

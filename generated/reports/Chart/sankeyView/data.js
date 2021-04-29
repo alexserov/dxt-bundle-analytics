@@ -545,7 +545,7 @@ var data = [
         target: "/events/core/emitter.js"
     },
     {
-        source: "/events/drag.js",
+        source: "/events/transform.js",
         weight: 9524,
         target: "/events/core/emitter_registrator.js"
     },
@@ -770,7 +770,7 @@ var data = [
         target: "/core/element.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/touch.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },

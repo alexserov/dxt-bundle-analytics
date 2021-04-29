@@ -85,7 +85,7 @@ var data = [
         target: "/events/gesture/swipeable.js"
     },
     {
-        source: "/core/utils/position.js",
+        source: "/core/devices.js",
         weight: 2762,
         target: "/core/utils/type.js"
     },
@@ -115,7 +115,7 @@ var data = [
         target: "/core/utils/dependency_injector.js"
     },
     {
-        source: "/core/utils/position.js",
+        source: "/core/devices.js",
         weight: 2151,
         target: "/core/config.js"
     },

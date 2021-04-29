@@ -225,7 +225,7 @@ var data = [
         target: "/core/utils/call_once.js"
     },
     {
-        source: "/core/renderer_base.js",
+        source: "/core/utils/public_component.js",
         weight: 2926,
         target: "/core/element_data.js"
     },
@@ -450,7 +450,7 @@ var data = [
         target: "/core/utils/object.js"
     },
     {
-        source: "/core/utils/support.js",
+        source: "/ui/widget/ui.widget.js",
         weight: 3954,
         target: "/core/utils/array.js"
     },
@@ -865,7 +865,7 @@ var data = [
         target: "/core/http_request.js"
     },
     {
-        source: "/ui/selection/selection.strategy.deferred.js",
+        source: "/ui/selection/selection.strategy.standard.js",
         weight: 5899,
         target: "/ui/selection/selection.strategy.js"
     },

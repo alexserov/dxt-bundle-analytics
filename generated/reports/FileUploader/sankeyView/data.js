@@ -510,7 +510,7 @@ var data = [
         target: "/core/template_manager.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/touch.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },

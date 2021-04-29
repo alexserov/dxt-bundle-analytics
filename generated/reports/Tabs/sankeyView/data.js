@@ -110,7 +110,7 @@ var data = [
         target: "/ui/collection/ui.collection_widget.live_update.js"
     },
     {
-        source: "/core/devices.js",
+        source: "/core/component_registrator.js",
         weight: 3435,
         target: "/core/errors.js"
     },
@@ -520,7 +520,7 @@ var data = [
         target: "/ui/scroll_view/animator.js"
     },
     {
-        source: "/ui/scroll_view/ui.scrollable.simulated.js",
+        source: "/ui/scroll_view/ui.scrollable.native.js",
         weight: 8551,
         target: "/ui/scroll_view/ui.scrollbar.js"
     },
@@ -650,7 +650,7 @@ var data = [
         target: "/data/abstract_store.js"
     },
     {
-        source: "/data/data_source/data_source.js",
+        source: "/data/data_source/utils.js",
         weight: 10866,
         target: "/data/custom_store.js"
     },
@@ -745,7 +745,7 @@ var data = [
         target: "/data/array_query.js"
     },
     {
-        source: "/data/custom_store.js",
+        source: "/data/abstract_store.js",
         weight: 2534,
         target: "/data/store_helper.js"
     },
@@ -755,7 +755,7 @@ var data = [
         target: "/core/http_request.js"
     },
     {
-        source: "/ui/selection/selection.strategy.deferred.js",
+        source: "/data/array_store.js",
         weight: 482,
         target: "/data/query.js"
     },

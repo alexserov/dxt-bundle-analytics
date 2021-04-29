@@ -75,7 +75,7 @@ var data = [
         target: "/core/utils/iterator.js"
     },
     {
-        source: "/core/devices.js",
+        source: "/core/component_registrator.js",
         weight: 3435,
         target: "/core/errors.js"
     },
@@ -95,7 +95,7 @@ var data = [
         target: "/core/guid.js"
     },
     {
-        source: "/core/devices.js",
+        source: "/core/utils/deferred.js",
         weight: 2732,
         target: "/core/utils/callbacks.js"
     },
@@ -110,7 +110,7 @@ var data = [
         target: "/core/utils/window.js"
     },
     {
-        source: "/ui/collection/ui.collection_widget.edit.js",
+        source: "/ui/editor/editor.js",
         weight: 20806,
         target: "/events/core/events_engine.js"
     },
@@ -260,7 +260,7 @@ var data = [
         target: "/core/utils/object.js"
     },
     {
-        source: "/ui/collection/ui.collection_widget.base.js",
+        source: "/ui/widget/ui.widget.js",
         weight: 3954,
         target: "/core/utils/array.js"
     },
@@ -270,12 +270,12 @@ var data = [
         target: "/core/dom_adapter.js"
     },
     {
-        source: "/core/element_data.js",
+        source: "/core/utils/public_component.js",
         weight: 1486,
         target: "/core/polyfills/weak_map.js"
     },
     {
-        source: "/core/element_data.js",
+        source: "/core/component_registrator_callbacks.js",
         weight: 943,
         target: "/core/memorized_callbacks.js"
     },
@@ -290,7 +290,7 @@ var data = [
         target: "/events/core/hook_touch_props.js"
     },
     {
-        source: "/core/utils/ready_callbacks.js",
+        source: "/core/utils/resize_callbacks.js",
         weight: 633,
         target: "/core/utils/call_once.js"
     },
@@ -325,7 +325,7 @@ var data = [
         target: "/core/element.js"
     },
     {
-        source: "/ui/collection/ui.collection_widget.base.js",
+        source: "/ui/widget/ui.widget.js",
         weight: 4769,
         target: "/core/action.js"
     },
@@ -335,7 +335,7 @@ var data = [
         target: "/events/utils/add_namespace.js"
     },
     {
-        source: "/ui/collection/ui.collection_widget.base.js",
+        source: "/ui/widget/ui.widget.js",
         weight: 1711,
         target: "/ui/widget/selectors.js"
     },
@@ -355,7 +355,7 @@ var data = [
         target: "/core/dom_component.js"
     },
     {
-        source: "/ui/collection/ui.collection_widget.base.js",
+        source: "/ui/widget/ui.widget.js",
         weight: 6287,
         target: "/events/click.js"
     },
@@ -430,7 +430,7 @@ var data = [
         target: "/ui/collection/item.js"
     },
     {
-        source: "/ui/collection/ui.collection_widget.base.js",
+        source: "/ui/validation_engine.js",
         weight: 4095,
         target: "/localization/message.js"
     },
@@ -490,7 +490,7 @@ var data = [
         target: "/core/utils/inflector.js"
     },
     {
-        source: "/events/pointer.js",
+        source: "/core/remove_event.js",
         weight: 1277,
         target: "/events/core/event_registrator.js"
     },
@@ -535,7 +535,7 @@ var data = [
         target: "/core/utils/support.js"
     },
     {
-        source: "/events/pointer.js",
+        source: "/core/utils/position.js",
         weight: 2253,
         target: "/core/utils/browser.js"
     },
@@ -570,12 +570,12 @@ var data = [
         target: "/events/utils/event_nodes_disposing.js"
     },
     {
-        source: "/events/hold.js",
+        source: "/events/click.js",
         weight: 2715,
         target: "/events/core/emitter.js"
     },
     {
-        source: "/events/hold.js",
+        source: "/events/click.js",
         weight: 9524,
         target: "/events/core/emitter_registrator.js"
     },
@@ -655,7 +655,7 @@ var data = [
         target: "/ui/overlay/ui.overlay.js"
     },
     {
-        source: "/core/templates/template_base.js",
+        source: "/ui/overlay/ui.overlay.js",
         weight: 995,
         target: "/events/visibility_change.js"
     },

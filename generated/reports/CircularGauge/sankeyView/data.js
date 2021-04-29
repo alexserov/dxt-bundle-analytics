@@ -635,7 +635,7 @@ var data = [
         target: "/localization/ldml/number.js"
     },
     {
-        source: "/localization/date.js",
+        source: "/localization/message.js",
         weight: 1289,
         target: "/localization/core.js"
     },
@@ -810,7 +810,7 @@ var data = [
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/mouse.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },

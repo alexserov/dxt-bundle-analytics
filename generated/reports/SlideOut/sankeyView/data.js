@@ -155,7 +155,7 @@ var data = [
         target: "/mobile/hide_callback.js"
     },
     {
-        source: "/core/templates/empty_template.js",
+        source: "/core/templates/child_default_template.js",
         weight: 1612,
         target: "/core/templates/template_base.js"
     },
@@ -315,12 +315,12 @@ var data = [
         target: "/animation/frame.js"
     },
     {
-        source: "/ui/widget/ui.widget.js",
+        source: "/ui/collection/ui.collection_widget.base.js",
         weight: 1711,
         target: "/ui/widget/selectors.js"
     },
     {
-        source: "/events/click.js",
+        source: "/ui/collection/ui.collection_widget.base.js",
         weight: 6254,
         target: "/events/utils/index.js"
     },
@@ -330,7 +330,7 @@ var data = [
         target: "/events/utils/event_nodes_disposing.js"
     },
     {
-        source: "/events/click.js",
+        source: "/ui/collection/ui.collection_widget.base.js",
         weight: 1603,
         target: "/events/pointer.js"
     },
@@ -350,7 +350,7 @@ var data = [
         target: "/core/utils/version.js"
     },
     {
-        source: "/ui/widget/ui.widget.js",
+        source: "/ui/collection/ui.collection_widget.base.js",
         weight: 4769,
         target: "/core/action.js"
     },
@@ -635,7 +635,7 @@ var data = [
         target: "/core/polyfills/promise.js"
     },
     {
-        source: "/ui/selection/selection.strategy.deferred.js",
+        source: "/ui/selection/selection.strategy.standard.js",
         weight: 482,
         target: "/data/query.js"
     },
@@ -650,7 +650,7 @@ var data = [
         target: "/localization/default_messages.js"
     },
     {
-        source: "/ui/selection/selection.strategy.deferred.js",
+        source: "/ui/selection/selection.strategy.standard.js",
         weight: 5899,
         target: "/ui/selection/selection.strategy.js"
     },
@@ -1095,7 +1095,7 @@ var data = [
         target: "/ui/collection/ui.collection_widget.async.js"
     },
     {
-        source: "/ui/scroll_view/ui.scrollable.native.js",
+        source: "/ui/scroll_view/ui.scrollable.simulated.js",
         weight: 8551,
         target: "/ui/scroll_view/ui.scrollbar.js"
     },
@@ -1110,7 +1110,7 @@ var data = [
         target: "/ui/text_box/texteditor_button_collection/index.js"
     },
     {
-        source: "/ui/text_box/ui.text_editor.mask.strategy.default.js",
+        source: "/ui/text_box/ui.text_editor.mask.strategy.input_events.js",
         weight: 6637,
         target: "/ui/text_box/ui.text_editor.mask.strategy.base.js"
     },

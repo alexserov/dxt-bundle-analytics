@@ -80,7 +80,7 @@ var data = [
         target: "/core/utils/iterator.js"
     },
     {
-        source: "/core/component_registrator.js",
+        source: "/core/devices.js",
         weight: 3435,
         target: "/core/errors.js"
     },
@@ -365,7 +365,7 @@ var data = [
         target: "/ui/load_indicator.js"
     },
     {
-        source: "/ui/text_box/ui.text_editor.mask.strategy.default.js",
+        source: "/ui/text_box/ui.text_editor.mask.strategy.input_events.js",
         weight: 6637,
         target: "/ui/text_box/ui.text_editor.mask.strategy.base.js"
     },
@@ -450,12 +450,12 @@ var data = [
         target: "/core/action.js"
     },
     {
-        source: "/events/pointer/mouse.js",
+        source: "/events/pointer/touch.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mouse.js",
+        source: "/events/pointer/mspointer.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },

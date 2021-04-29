@@ -545,7 +545,7 @@ var data = [
         target: "/ui/scroll_view/animator.js"
     },
     {
-        source: "/ui/scroll_view/ui.scrollable.native.js",
+        source: "/ui/scroll_view/ui.scrollable.simulated.js",
         weight: 8551,
         target: "/ui/scroll_view/ui.scrollbar.js"
     },
@@ -645,7 +645,7 @@ var data = [
         target: "/core/templates/empty_template.js"
     },
     {
-        source: "/ui/collection/ui.collection_widget.base.js",
+        source: "/core/template_manager.js",
         weight: 4371,
         target: "/core/utils/template_manager.js"
     },
@@ -660,7 +660,7 @@ var data = [
         target: "/data/abstract_store.js"
     },
     {
-        source: "/data/data_source/utils.js",
+        source: "/data/data_source/data_source.js",
         weight: 10866,
         target: "/data/custom_store.js"
     },
@@ -755,7 +755,7 @@ var data = [
         target: "/data/array_query.js"
     },
     {
-        source: "/data/abstract_store.js",
+        source: "/data/custom_store.js",
         weight: 2534,
         target: "/data/store_helper.js"
     },
@@ -770,7 +770,7 @@ var data = [
         target: "/data/query.js"
     },
     {
-        source: "/ui/selection/selection.strategy.standard.js",
+        source: "/ui/selection/selection.strategy.deferred.js",
         weight: 5899,
         target: "/ui/selection/selection.strategy.js"
     },

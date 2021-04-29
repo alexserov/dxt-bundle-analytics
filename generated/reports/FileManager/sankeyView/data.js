@@ -375,7 +375,7 @@ var data = [
         target: "/ui/data_grid/ui.data_grid.js"
     },
     {
-        source: "/ui/file_manager/ui.file_manager.item_list.details.js",
+        source: "/ui/file_manager/ui.file_manager.item_list.thumbnails.js",
         weight: 9719,
         target: "/ui/file_manager/ui.file_manager.item_list.js"
     },
@@ -450,7 +450,7 @@ var data = [
         target: "/core/memorized_callbacks.js"
     },
     {
-        source: "/core/renderer_base.js",
+        source: "/core/utils/public_component.js",
         weight: 2926,
         target: "/core/element_data.js"
     },
@@ -500,7 +500,7 @@ var data = [
         target: "/core/utils/resize_callbacks.js"
     },
     {
-        source: "/ui/file_manager/ui.file_manager.item_list.js",
+        source: "/events/contextmenu.js",
         weight: 9873,
         target: "/core/devices.js"
     },
@@ -510,7 +510,7 @@ var data = [
         target: "/core/component.js"
     },
     {
-        source: "/events/core/emitter.feedback.js",
+        source: "/events/click.js",
         weight: 4603,
         target: "/core/utils/dom.js"
     },
@@ -570,7 +570,7 @@ var data = [
         target: "/events/pointer.js"
     },
     {
-        source: "/animation/fx.js",
+        source: "/events/click.js",
         weight: 2084,
         target: "/animation/frame.js"
     },
@@ -580,12 +580,12 @@ var data = [
         target: "/events/utils/event_nodes_disposing.js"
     },
     {
-        source: "/events/hold.js",
+        source: "/events/click.js",
         weight: 2715,
         target: "/events/core/emitter.js"
     },
     {
-        source: "/events/core/emitter.feedback.js",
+        source: "/events/click.js",
         weight: 9524,
         target: "/events/core/emitter_registrator.js"
     },
@@ -950,7 +950,7 @@ var data = [
         target: "/ui/file_uploader.js"
     },
     {
-        source: "/core/utils/variable_wrapper.js",
+        source: "/core/utils/error.js",
         weight: 1011,
         target: "/core/utils/console.js"
     },
@@ -985,7 +985,7 @@ var data = [
         target: "/core/postponed_operations.js"
     },
     {
-        source: "/core/templates/function_template.js",
+        source: "/core/templates/bindable_template.js",
         weight: 1612,
         target: "/core/templates/template_base.js"
     },
@@ -1090,7 +1090,7 @@ var data = [
         target: "/data/array_query.js"
     },
     {
-        source: "/ui/selection/selection.strategy.deferred.js",
+        source: "/data/array_store.js",
         weight: 482,
         target: "/data/query.js"
     },
@@ -1100,12 +1100,12 @@ var data = [
         target: "/data/store_helper.js"
     },
     {
-        source: "/data/data_source/data_source.js",
+        source: "/data/array_store.js",
         weight: 7804,
         target: "/data/array_utils.js"
     },
     {
-        source: "/data/custom_store.js",
+        source: "/data/array_store.js",
         weight: 5892,
         target: "/data/abstract_store.js"
     },
@@ -1150,7 +1150,7 @@ var data = [
         target: "/ui/selection/selection.strategy.standard.js"
     },
     {
-        source: "/ui/context_menu/ui.menu_base.js",
+        source: "/ui/tree_view/ui.tree_view.base.js",
         weight: 6958,
         target: "/ui/hierarchical_collection/ui.hierarchical_collection_widget.js"
     },
@@ -1200,7 +1200,7 @@ var data = [
         target: "/ui/data_grid/ui.data_grid.columns_controller.js"
     },
     {
-        source: "/ui/data_grid/ui.data_grid.grouping.js",
+        source: "/ui/data_grid/ui.data_grid.virtual_scrolling.js",
         weight: 648,
         target: "/ui/data_grid/ui.data_grid.data_source_adapter.js"
     },
@@ -1435,7 +1435,7 @@ var data = [
         target: "/ui/grid_core/ui.grid_core.row_dragging.js"
     },
     {
-        source: "/ui/drawer/ui.drawer.rendering.strategy.shrink.js",
+        source: "/ui/drawer/ui.drawer.rendering.strategy.overlap.js",
         weight: 4147,
         target: "/ui/drawer/ui.drawer.rendering.strategy.js"
     },
@@ -1445,7 +1445,7 @@ var data = [
         target: "/ui/progress_bar.js"
     },
     {
-        source: "/ui/file_manager/ui.file_manager.dialog.name_editor.js",
+        source: "/ui/file_manager/ui.file_manager.dialog.folder_chooser.js",
         weight: 4376,
         target: "/ui/file_manager/ui.file_manager.dialog.js"
     },
@@ -1555,17 +1555,17 @@ var data = [
         target: "/ui/scroll_view/ui.events.emitter.gesture.scroll.js"
     },
     {
-        source: "/ui/scroll_view/ui.scrollable.js",
+        source: "/ui/scroll_view/ui.scroll_view.simulated.js",
         weight: 35321,
         target: "/ui/scroll_view/ui.scrollable.simulated.js"
     },
     {
-        source: "/ui/scroll_view/ui.scrollable.js",
+        source: "/ui/scroll_view/ui.scroll_view.native.swipe_down.js",
         weight: 9402,
         target: "/ui/scroll_view/ui.scrollable.native.js"
     },
     {
-        source: "/ui/scroll_view/ui.scrollable.js",
+        source: "/ui/list/ui.list.base.js",
         weight: 971,
         target: "/ui/scroll_view/ui.scrollable.device.js"
     },
@@ -1705,7 +1705,7 @@ var data = [
         target: "/ui/dialog.js"
     },
     {
-        source: "/ui/grid_core/ui.grid_core.editing.js",
+        source: "/ui/grid_core/ui.grid_core.editing_row_based.js",
         weight: 1468,
         target: "/ui/grid_core/ui.grid_core.editing_constants.js"
     },
@@ -1735,7 +1735,7 @@ var data = [
         target: "/ui/grid_core/ui.grid_core.header_filter_core.js"
     },
     {
-        source: "/ui/grid_core/ui.grid_core.filter_sync.js",
+        source: "/ui/grid_core/ui.grid_core.filter_panel.js",
         weight: 27958,
         target: "/ui/filter_builder/utils.js"
     },
@@ -1850,7 +1850,7 @@ var data = [
         target: "/ui/scroll_view/animator.js"
     },
     {
-        source: "/ui/scroll_view/ui.scrollable.native.js",
+        source: "/ui/scroll_view/ui.scrollable.simulated.js",
         weight: 8551,
         target: "/ui/scroll_view/ui.scrollbar.js"
     },
@@ -1970,7 +1970,7 @@ var data = [
         target: "/color.js"
     },
     {
-        source: "/exporter/svg_creator.js",
+        source: "/exporter/image_creator.js",
         weight: 1800,
         target: "/core/utils/svg.js"
     },
@@ -2160,7 +2160,7 @@ var data = [
         target: "/ui/text_box/ui.text_editor.mask.strategy.input_events.js"
     },
     {
-        source: "/ui/list/ui.list.edit.decorator.swipe.js",
+        source: "/ui/list/ui.list.edit.decorator.static.js",
         weight: 3401,
         target: "/ui/list/ui.list.edit.decorator.js"
     },
@@ -2170,7 +2170,7 @@ var data = [
         target: "/ui/list/ui.list.edit.decorator.switchable.js"
     },
     {
-        source: "/ui/list/ui.list.edit.decorator.context.js",
+        source: "/ui/list/ui.list.edit.decorator.switchable.slide.js",
         weight: 844,
         target: "/ui/list/ui.list.edit.decorator_menu_helper.js"
     },
@@ -2515,7 +2515,7 @@ var data = [
         target: "/renovation/ui/pager/common/keyboard_action_context.js"
     },
     {
-        source: "/renovation/ui/pager/pages/small.js",
+        source: "/renovation/ui/pager/pages/large.js",
         weight: 2332,
         target: "/renovation/ui/pager/pages/page.js"
     },
@@ -2545,7 +2545,7 @@ var data = [
         target: "/ui/calendar.js"
     },
     {
-        source: "/ui/date_box/ui.date_box.strategy.date_view.js",
+        source: "/ui/date_box/ui.date_box.strategy.calendar.js",
         weight: 3672,
         target: "/ui/date_box/ui.date_box.strategy.js"
     },

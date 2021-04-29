@@ -175,7 +175,7 @@ var data = [
         target: "/animation/easing.js"
     },
     {
-        source: "/events/click.js",
+        source: "/animation/fx.js",
         weight: 2084,
         target: "/animation/frame.js"
     },
@@ -355,7 +355,7 @@ var data = [
         target: "/core/utils/size.js"
     },
     {
-        source: "/events/pointer.js",
+        source: "/animation/position.js",
         weight: 2253,
         target: "/core/utils/browser.js"
     },
@@ -365,7 +365,7 @@ var data = [
         target: "/core/utils/position.js"
     },
     {
-        source: "/events/pointer.js",
+        source: "/core/remove_event.js",
         weight: 1277,
         target: "/events/core/event_registrator.js"
     },
@@ -605,7 +605,7 @@ var data = [
         target: "/core/http_request.js"
     },
     {
-        source: "/ui/selection/selection.strategy.deferred.js",
+        source: "/data/array_store.js",
         weight: 482,
         target: "/data/query.js"
     },

@@ -260,7 +260,7 @@ var data = [
         target: "/events/core/hook_touch_props.js"
     },
     {
-        source: "/core/utils/resize_callbacks.js",
+        source: "/core/utils/ready_callbacks.js",
         weight: 633,
         target: "/core/utils/call_once.js"
     },
@@ -490,7 +490,7 @@ var data = [
         target: "/data/abstract_store.js"
     },
     {
-        source: "/data/data_source/data_source.js",
+        source: "/data/data_source/utils.js",
         weight: 10866,
         target: "/data/custom_store.js"
     },
@@ -630,7 +630,7 @@ var data = [
         target: "/data/array_query.js"
     },
     {
-        source: "/data/custom_store.js",
+        source: "/data/abstract_store.js",
         weight: 2534,
         target: "/data/store_helper.js"
     },
@@ -660,7 +660,7 @@ var data = [
         target: "/localization/default_messages.js"
     },
     {
-        source: "/ui/selection/selection.strategy.deferred.js",
+        source: "/ui/selection/selection.strategy.standard.js",
         weight: 5899,
         target: "/ui/selection/selection.strategy.js"
     },
@@ -690,7 +690,7 @@ var data = [
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/mouse.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },

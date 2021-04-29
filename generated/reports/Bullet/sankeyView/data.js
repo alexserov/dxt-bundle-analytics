@@ -165,7 +165,7 @@ var data = [
         target: "/core/utils/window.js"
     },
     {
-        source: "/events/core/events_engine.js",
+        source: "/core/utils/public_component.js",
         weight: 1486,
         target: "/core/polyfills/weak_map.js"
     },
@@ -360,12 +360,12 @@ var data = [
         target: "/events/hover.js"
     },
     {
-        source: "/viz/core/base_widget.utils.js",
+        source: "/core/utils/error.js",
         weight: 2780,
         target: "/core/utils/string.js"
     },
     {
-        source: "/viz/core/base_widget.utils.js",
+        source: "/core/utils/error.js",
         weight: 287,
         target: "/core/version.js"
     },
@@ -395,7 +395,7 @@ var data = [
         target: "/core/utils/array.js"
     },
     {
-        source: "/core/utils/support.js",
+        source: "/core/renderer_base.js",
         weight: 2799,
         target: "/core/utils/style.js"
     },
@@ -595,7 +595,7 @@ var data = [
         target: "/ui/themes_callback.js"
     },
     {
-        source: "/ui/themes.js",
+        source: "/exporter/file_saver.js",
         weight: 5972,
         target: "/ui/widget/ui.errors.js"
     },
@@ -680,7 +680,7 @@ var data = [
         target: "/localization/ldml/date.formatter.js"
     },
     {
-        source: "/localization/date.js",
+        source: "/exporter/excel_format_converter.js",
         weight: 7850,
         target: "/localization/ldml/date.format.js"
     },

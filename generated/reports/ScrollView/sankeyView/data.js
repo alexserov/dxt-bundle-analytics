@@ -305,7 +305,7 @@ var data = [
         target: "/core/utils/object.js"
     },
     {
-        source: "/core/utils/support.js",
+        source: "/core/dom_component.js",
         weight: 3954,
         target: "/core/utils/array.js"
     },
@@ -520,7 +520,7 @@ var data = [
         target: "/events/utils/event_nodes_disposing.js"
     },
     {
-        source: "/events/gesture/emitter.gesture.js",
+        source: "/events/click.js",
         weight: 2715,
         target: "/events/core/emitter.js"
     },
@@ -630,12 +630,12 @@ var data = [
         target: "/core/templates/template_engines.js"
     },
     {
-        source: "/events/pointer/mouse.js",
+        source: "/events/pointer/mspointer.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mouse.js",
+        source: "/events/pointer/mspointer.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     }

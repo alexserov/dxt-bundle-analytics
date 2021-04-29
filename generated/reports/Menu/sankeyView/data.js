@@ -330,7 +330,7 @@ var data = [
         target: "/core/utils/object.js"
     },
     {
-        source: "/ui/validation_engine.js",
+        source: "/ui/overlay/ui.overlay.js",
         weight: 3954,
         target: "/core/utils/array.js"
     },
@@ -360,7 +360,7 @@ var data = [
         target: "/core/remove_event.js"
     },
     {
-        source: "/core/devices.js",
+        source: "/ui/overlay/ui.overlay.js",
         weight: 1247,
         target: "/core/utils/ready_callbacks.js"
     },
@@ -380,12 +380,12 @@ var data = [
         target: "/core/utils/storage.js"
     },
     {
-        source: "/core/devices.js",
+        source: "/ui/overlay/ui.overlay.js",
         weight: 1120,
         target: "/core/utils/view_port.js"
     },
     {
-        source: "/events/pointer/touch.js",
+        source: "/events/pointer/mspointer.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
@@ -920,7 +920,7 @@ var data = [
         target: "/ui/scroll_view/animator.js"
     },
     {
-        source: "/ui/scroll_view/ui.scrollable.native.js",
+        source: "/ui/scroll_view/ui.scrollable.simulated.js",
         weight: 8551,
         target: "/ui/scroll_view/ui.scrollbar.js"
     },
@@ -990,7 +990,7 @@ var data = [
         target: "/ui/text_box/texteditor_button_collection/index.js"
     },
     {
-        source: "/ui/text_box/ui.text_editor.mask.strategy.default.js",
+        source: "/ui/text_box/ui.text_editor.mask.strategy.input_events.js",
         weight: 6637,
         target: "/ui/text_box/ui.text_editor.mask.strategy.base.js"
     },

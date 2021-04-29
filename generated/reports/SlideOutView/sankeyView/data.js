@@ -420,7 +420,7 @@ var data = [
         target: "/animation/position.js"
     },
     {
-        source: "/core/utils/error.js",
+        source: "/core/utils/variable_wrapper.js",
         weight: 1011,
         target: "/core/utils/console.js"
     },

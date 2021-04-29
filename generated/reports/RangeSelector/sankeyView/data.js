@@ -465,7 +465,7 @@ var data = [
         target: "/core/renderer_base.js"
     },
     {
-        source: "/events/hover.js",
+        source: "/events/pointer.js",
         weight: 1277,
         target: "/events/core/event_registrator.js"
     },
@@ -790,7 +790,7 @@ var data = [
         target: "/data/data_source/data_source.js"
     },
     {
-        source: "/core/utils/object.js",
+        source: "/core/utils/data.js",
         weight: 815,
         target: "/core/utils/variable_wrapper.js"
     },

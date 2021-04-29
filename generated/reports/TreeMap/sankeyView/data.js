@@ -145,7 +145,7 @@ var data = [
         target: "/viz/tree_map/node.js"
     },
     {
-        source: "/viz/tree_map/tiling.squarified.js",
+        source: "/viz/tree_map/tree_map.base.js",
         weight: 3023,
         target: "/viz/tree_map/tiling.js"
     },
@@ -170,7 +170,7 @@ var data = [
         target: "/events/pointer.js"
     },
     {
-        source: "/viz/tree_map/selection.js",
+        source: "/viz/tree_map/hover.js",
         weight: 6307,
         target: "/viz/core/helpers.js"
     },
@@ -195,7 +195,7 @@ var data = [
         target: "/viz/core/data_source.js"
     },
     {
-        source: "/viz/tree_map/selection.js",
+        source: "/viz/tree_map/hover.js",
         weight: 1723,
         target: "/viz/tree_map/states.js"
     },
@@ -260,7 +260,7 @@ var data = [
         target: "/core/utils/deferred.js"
     },
     {
-        source: "/viz/core/utils.js",
+        source: "/viz/core/base_widget.js",
         weight: 1326,
         target: "/core/utils/iterator.js"
     },
@@ -350,7 +350,7 @@ var data = [
         target: "/viz/core/base_theme_manager.js"
     },
     {
-        source: "/events/pointer.js",
+        source: "/events/hover.js",
         weight: 1277,
         target: "/events/core/event_registrator.js"
     },
@@ -500,7 +500,7 @@ var data = [
         target: "/core/utils/variable_wrapper.js"
     },
     {
-        source: "/core/utils/public_component.js",
+        source: "/events/core/events_engine.js",
         weight: 1486,
         target: "/core/polyfills/weak_map.js"
     },
@@ -575,7 +575,7 @@ var data = [
         target: "/ui/themes_callback.js"
     },
     {
-        source: "/exporter/excel_creator.js",
+        source: "/exporter/file_saver.js",
         weight: 5972,
         target: "/ui/widget/ui.errors.js"
     },

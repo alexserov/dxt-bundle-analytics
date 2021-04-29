@@ -205,7 +205,7 @@ var data = [
         target: "/core/guid.js"
     },
     {
-        source: "/viz/core/base_widget.js",
+        source: "/core/utils/common.js",
         weight: 5377,
         target: "/core/utils/deferred.js"
     },
@@ -450,7 +450,7 @@ var data = [
         target: "/core/version.js"
     },
     {
-        source: "/core/utils/resize_callbacks.js",
+        source: "/core/utils/deferred.js",
         weight: 2732,
         target: "/core/utils/callbacks.js"
     },
@@ -805,7 +805,7 @@ var data = [
         target: "/events/core/keyboard_processor.js"
     },
     {
-        source: "/events/pointer/touch.js",
+        source: "/events/pointer/mspointer.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },

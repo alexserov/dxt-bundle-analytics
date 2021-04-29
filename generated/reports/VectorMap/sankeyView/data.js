@@ -140,7 +140,7 @@ var data = [
         target: "/core/utils/deferred.js"
     },
     {
-        source: "/viz/vector_map/legend.js",
+        source: "/viz/vector_map/layout.js",
         weight: 1326,
         target: "/core/utils/iterator.js"
     },
@@ -260,7 +260,7 @@ var data = [
         target: "/core/utils/public_component.js"
     },
     {
-        source: "/viz/core/export.js",
+        source: "/viz/core/annotations.js",
         weight: 1603,
         target: "/events/pointer.js"
     },
@@ -315,7 +315,7 @@ var data = [
         target: "/format_helper.js"
     },
     {
-        source: "/viz/core/tooltip.js",
+        source: "/viz/core/annotations.js",
         weight: 18874,
         target: "/viz/core/plaque.js"
     },
@@ -425,7 +425,7 @@ var data = [
         target: "/ui/widget/selectors.js"
     },
     {
-        source: "/events/hover.js",
+        source: "/events/core/wheel.js",
         weight: 1277,
         target: "/events/core/event_registrator.js"
     },
@@ -725,7 +725,7 @@ var data = [
         target: "/ui/themes_callback.js"
     },
     {
-        source: "/exporter/file_saver.js",
+        source: "/exporter/excel_creator.js",
         weight: 5972,
         target: "/ui/widget/ui.errors.js"
     },

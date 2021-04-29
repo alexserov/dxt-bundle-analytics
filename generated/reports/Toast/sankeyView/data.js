@@ -240,7 +240,7 @@ var data = [
         target: "/core/class.js"
     },
     {
-        source: "/core/utils/object.js",
+        source: "/core/utils/data.js",
         weight: 815,
         target: "/core/utils/variable_wrapper.js"
     },
@@ -295,7 +295,7 @@ var data = [
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mouse.js",
+        source: "/events/pointer/mspointer.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },
@@ -470,7 +470,7 @@ var data = [
         target: "/events/hover.js"
     },
     {
-        source: "/events/core/emitter.feedback.js",
+        source: "/events/click.js",
         weight: 2715,
         target: "/events/core/emitter.js"
     },

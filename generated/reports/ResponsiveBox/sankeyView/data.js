@@ -225,7 +225,7 @@ var data = [
         target: "/core/utils/object.js"
     },
     {
-        source: "/ui/collection/ui.collection_widget.edit.strategy.plain.js",
+        source: "/ui/collection/ui.collection_widget.base.js",
         weight: 3954,
         target: "/core/utils/array.js"
     },
@@ -235,7 +235,7 @@ var data = [
         target: "/core/memorized_callbacks.js"
     },
     {
-        source: "/core/utils/public_component.js",
+        source: "/core/renderer_base.js",
         weight: 2926,
         target: "/core/element_data.js"
     },
@@ -300,7 +300,7 @@ var data = [
         target: "/ui/widget/ui.widget.js"
     },
     {
-        source: "/data/data_source/data_source.js",
+        source: "/data/data_source/utils.js",
         weight: 7985,
         target: "/data/utils.js"
     },
@@ -320,7 +320,7 @@ var data = [
         target: "/data/abstract_store.js"
     },
     {
-        source: "/data/data_source/data_source.js",
+        source: "/data/data_source/utils.js",
         weight: 10866,
         target: "/data/custom_store.js"
     },
@@ -510,7 +510,7 @@ var data = [
         target: "/data/array_query.js"
     },
     {
-        source: "/data/custom_store.js",
+        source: "/data/abstract_store.js",
         weight: 2534,
         target: "/data/store_helper.js"
     },
@@ -600,7 +600,7 @@ var data = [
         target: "/events/core/keyboard_processor.js"
     },
     {
-        source: "/events/pointer/touch.js",
+        source: "/events/pointer/mspointer.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },

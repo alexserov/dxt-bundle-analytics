@@ -790,12 +790,12 @@ var data = [
         target: "/events/core/keyboard_processor.js"
     },
     {
-        source: "/events/pointer/mouse.js",
+        source: "/events/pointer/mspointer.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mouse.js",
+        source: "/events/pointer/mspointer.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },

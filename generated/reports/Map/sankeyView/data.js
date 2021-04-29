@@ -145,7 +145,7 @@ var data = [
         target: "/core/dom_adapter.js"
     },
     {
-        source: "/core/devices.js",
+        source: "/core/polyfills/promise.js",
         weight: 1634,
         target: "/core/utils/window.js"
     },
@@ -345,7 +345,7 @@ var data = [
         target: "/core/memorized_callbacks.js"
     },
     {
-        source: "/core/utils/public_component.js",
+        source: "/core/renderer_base.js",
         weight: 2926,
         target: "/core/element_data.js"
     },

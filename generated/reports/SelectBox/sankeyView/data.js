@@ -435,7 +435,7 @@ var data = [
         target: "/core/action.js"
     },
     {
-        source: "/events/click.js",
+        source: "/core/templates/function_template.js",
         weight: 4603,
         target: "/core/utils/dom.js"
     },
@@ -730,12 +730,12 @@ var data = [
         target: "/core/utils/template_manager.js"
     },
     {
-        source: "/events/pointer/touch.js",
+        source: "/events/pointer/mouse.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/mouse.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },
@@ -900,7 +900,7 @@ var data = [
         target: "/ui/text_box/ui.text_editor.mask.rule.js"
     },
     {
-        source: "/events/drag.js",
+        source: "/events/swipe.js",
         weight: 6790,
         target: "/events/gesture/emitter.gesture.js"
     },
@@ -950,12 +950,12 @@ var data = [
         target: "/ui/list/ui.list.edit.decorator.js"
     },
     {
-        source: "/ui/list/ui.list.edit.decorator.switchable.slide.js",
+        source: "/ui/list/ui.list.edit.decorator.switchable.button.js",
         weight: 7497,
         target: "/ui/list/ui.list.edit.decorator.switchable.js"
     },
     {
-        source: "/ui/list/ui.list.edit.decorator.context.js",
+        source: "/ui/list/ui.list.edit.decorator.switchable.slide.js",
         weight: 844,
         target: "/ui/list/ui.list.edit.decorator_menu_helper.js"
     },
@@ -1010,7 +1010,7 @@ var data = [
         target: "/core/templates/template_engines.js"
     },
     {
-        source: "/ui/text_box/ui.text_editor.base.js",
+        source: "/ui/check_box.js",
         weight: 13132,
         target: "/ui/editor/editor.js"
     },
@@ -1025,7 +1025,7 @@ var data = [
         target: "/ui/text_box/texteditor_button_collection/index.js"
     },
     {
-        source: "/ui/text_box/ui.text_editor.base.js",
+        source: "/ui/scroll_view/ui.scroll_view.js",
         weight: 5786,
         target: "/ui/load_indicator.js"
     },

@@ -560,12 +560,12 @@ var data = [
         target: "/viz/core/base_theme_manager.js"
     },
     {
-        source: "/events/pointer/touch.js",
+        source: "/events/pointer/mouse_and_touch.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mouse.js",
+        source: "/events/pointer/mspointer.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },
@@ -610,7 +610,7 @@ var data = [
         target: "/viz/core/layout_element.js"
     },
     {
-        source: "/viz/chart_components/layout_manager.js",
+        source: "/viz/series/base_series.js",
         weight: 1213,
         target: "/viz/components/consts.js"
     },
@@ -1025,7 +1025,7 @@ var data = [
         target: "/core/utils/ajax.js"
     },
     {
-        source: "/data/data_source/data_source.js",
+        source: "/data/data_source/utils.js",
         weight: 7985,
         target: "/data/utils.js"
     },
@@ -1045,7 +1045,7 @@ var data = [
         target: "/data/abstract_store.js"
     },
     {
-        source: "/data/data_source/data_source.js",
+        source: "/data/data_source/utils.js",
         weight: 10866,
         target: "/data/custom_store.js"
     },

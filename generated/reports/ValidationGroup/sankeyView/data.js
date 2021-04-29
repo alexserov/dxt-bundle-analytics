@@ -200,7 +200,7 @@ var data = [
         target: "/core/utils/error.js"
     },
     {
-        source: "/localization/number.js",
+        source: "/localization/message.js",
         weight: 1610,
         target: "/core/utils/dependency_injector.js"
     },
@@ -505,7 +505,7 @@ var data = [
         target: "/ui/widget/ui.widget.js"
     },
     {
-        source: "/data/data_source/data_source.js",
+        source: "/data/data_source/utils.js",
         weight: 7985,
         target: "/data/utils.js"
     },
@@ -525,7 +525,7 @@ var data = [
         target: "/data/abstract_store.js"
     },
     {
-        source: "/data/data_source/data_source.js",
+        source: "/data/data_source/utils.js",
         weight: 10866,
         target: "/data/custom_store.js"
     },
@@ -625,7 +625,7 @@ var data = [
         target: "/core/templates/template_engines.js"
     },
     {
-        source: "/events/pointer/mouse.js",
+        source: "/events/pointer/touch.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },

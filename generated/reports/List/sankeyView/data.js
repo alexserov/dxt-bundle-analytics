@@ -570,7 +570,7 @@ var data = [
         target: "/ui/list/ui.list.edit.decorator.js"
     },
     {
-        source: "/ui/list/ui.list.edit.decorator.switchable.slide.js",
+        source: "/ui/list/ui.list.edit.decorator.swipe.js",
         weight: 4136,
         target: "/animation/translator.js"
     },
@@ -845,7 +845,7 @@ var data = [
         target: "/core/template_manager.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/touch.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
@@ -860,7 +860,7 @@ var data = [
         target: "/data/abstract_store.js"
     },
     {
-        source: "/data/data_source/data_source.js",
+        source: "/data/data_source/utils.js",
         weight: 10866,
         target: "/data/custom_store.js"
     },
@@ -915,7 +915,7 @@ var data = [
         target: "/ui/selection/selection.strategy.standard.js"
     },
     {
-        source: "/ui/overlay/ui.overlay.js",
+        source: "/ui/draggable.js",
         weight: 9470,
         target: "/events/drag.js"
     },
@@ -1070,7 +1070,7 @@ var data = [
         target: "/ui/text_box/texteditor_button_collection/index.js"
     },
     {
-        source: "/ui/text_box/ui.text_editor.mask.strategy.default.js",
+        source: "/ui/text_box/ui.text_editor.mask.strategy.input_events.js",
         weight: 6637,
         target: "/ui/text_box/ui.text_editor.mask.strategy.base.js"
     },

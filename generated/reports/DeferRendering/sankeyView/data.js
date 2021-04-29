@@ -355,7 +355,7 @@ var data = [
         target: "/ui/widget/ui.errors.js"
     },
     {
-        source: "/events/core/emitter.feedback.js",
+        source: "/events/click.js",
         weight: 4603,
         target: "/core/utils/dom.js"
     },
@@ -380,12 +380,12 @@ var data = [
         target: "/events/utils/event_nodes_disposing.js"
     },
     {
-        source: "/events/core/emitter.feedback.js",
+        source: "/events/click.js",
         weight: 2715,
         target: "/events/core/emitter.js"
     },
     {
-        source: "/events/core/emitter.feedback.js",
+        source: "/events/click.js",
         weight: 9524,
         target: "/events/core/emitter_registrator.js"
     },

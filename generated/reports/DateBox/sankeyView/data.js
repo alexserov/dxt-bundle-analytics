@@ -115,7 +115,7 @@ var data = [
         target: "/ui/date_box/ui.date_box.base.js"
     },
     {
-        source: "/ui/date_box/ui.date_box.base.js",
+        source: "/core/devices.js",
         weight: 1326,
         target: "/core/utils/iterator.js"
     },
@@ -130,7 +130,7 @@ var data = [
         target: "/core/utils/dependency_injector.js"
     },
     {
-        source: "/ui/date_box/ui.date_box.base.js",
+        source: "/core/devices.js",
         weight: 2151,
         target: "/core/config.js"
     },
@@ -155,7 +155,7 @@ var data = [
         target: "/core/dom_adapter.js"
     },
     {
-        source: "/ui/date_box/ui.date_box.base.js",
+        source: "/core/devices.js",
         weight: 1634,
         target: "/core/utils/window.js"
     },
@@ -495,7 +495,7 @@ var data = [
         target: "/ui/calendar.js"
     },
     {
-        source: "/ui/date_box/ui.date_box.strategy.date_view.js",
+        source: "/ui/date_box/ui.date_box.strategy.calendar.js",
         weight: 3672,
         target: "/ui/date_box/ui.date_box.strategy.js"
     },
@@ -850,12 +850,12 @@ var data = [
         target: "/core/utils/template_manager.js"
     },
     {
-        source: "/events/pointer/mouse.js",
+        source: "/events/pointer/mspointer.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mouse.js",
+        source: "/events/pointer/mspointer.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },
@@ -1065,7 +1065,7 @@ var data = [
         target: "/ui/text_box/ui.text_editor.mask.rule.js"
     },
     {
-        source: "/ui/scroll_view/ui.events.emitter.gesture.scroll.js",
+        source: "/events/swipe.js",
         weight: 6790,
         target: "/events/gesture/emitter.gesture.js"
     },
@@ -1125,7 +1125,7 @@ var data = [
         target: "/ui/scroll_view/animator.js"
     },
     {
-        source: "/ui/scroll_view/ui.scrollable.native.js",
+        source: "/ui/scroll_view/ui.scrollable.simulated.js",
         weight: 8551,
         target: "/ui/scroll_view/ui.scrollbar.js"
     },
@@ -1250,7 +1250,7 @@ var data = [
         target: "/ui/list/ui.list.edit.decorator.js"
     },
     {
-        source: "/ui/list/ui.list.edit.decorator.switchable.slide.js",
+        source: "/ui/list/ui.list.edit.decorator.switchable.button.js",
         weight: 7497,
         target: "/ui/list/ui.list.edit.decorator.switchable.js"
     },

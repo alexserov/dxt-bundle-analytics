@@ -460,7 +460,7 @@ var data = [
         target: "/core/component.js"
     },
     {
-        source: "/events/core/emitter.feedback.js",
+        source: "/events/click.js",
         weight: 4603,
         target: "/core/utils/dom.js"
     },
@@ -500,12 +500,12 @@ var data = [
         target: "/events/utils/event_nodes_disposing.js"
     },
     {
-        source: "/events/core/emitter.feedback.js",
+        source: "/events/click.js",
         weight: 2715,
         target: "/events/core/emitter.js"
     },
     {
-        source: "/events/core/emitter.feedback.js",
+        source: "/events/click.js",
         weight: 9524,
         target: "/events/core/emitter_registrator.js"
     },
@@ -1230,7 +1230,7 @@ var data = [
         target: "/ui/calendar.js"
     },
     {
-        source: "/ui/date_box/ui.date_box.strategy.calendar.js",
+        source: "/ui/date_box/ui.date_box.strategy.date_view.js",
         weight: 3672,
         target: "/ui/date_box/ui.date_box.strategy.js"
     },

@@ -105,7 +105,7 @@ var data = [
         target: "/core/dom_adapter.js"
     },
     {
-        source: "/ui/themes.js",
+        source: "/ui/load_indicator.js",
         weight: 1634,
         target: "/core/utils/window.js"
     },
@@ -155,7 +155,7 @@ var data = [
         target: "/core/utils/view_port.js"
     },
     {
-        source: "/ui/themes.js",
+        source: "/ui/load_indicator.js",
         weight: 9873,
         target: "/core/devices.js"
     },
@@ -210,7 +210,7 @@ var data = [
         target: "/core/utils/object.js"
     },
     {
-        source: "/ui/overlay/ui.overlay.js",
+        source: "/core/utils/support.js",
         weight: 3954,
         target: "/core/utils/array.js"
     },
@@ -225,7 +225,7 @@ var data = [
         target: "/core/memorized_callbacks.js"
     },
     {
-        source: "/core/utils/ready_callbacks.js",
+        source: "/core/utils/support.js",
         weight: 633,
         target: "/core/utils/call_once.js"
     },
@@ -405,7 +405,7 @@ var data = [
         target: "./node_modules/@babel/runtime/helpers/esm/extends.js"
     },
     {
-        source: "/core/utils/error.js",
+        source: "/core/utils/variable_wrapper.js",
         weight: 1011,
         target: "/core/utils/console.js"
     },

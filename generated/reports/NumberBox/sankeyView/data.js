@@ -480,12 +480,12 @@ var data = [
         target: "/core/utils/dom.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/touch.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/mouse.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },
@@ -500,12 +500,12 @@ var data = [
         target: "/core/dom_component.js"
     },
     {
-        source: "/events/hold.js",
+        source: "/events/core/emitter.feedback.js",
         weight: 2715,
         target: "/events/core/emitter.js"
     },
     {
-        source: "/events/hold.js",
+        source: "/events/core/emitter.feedback.js",
         weight: 9524,
         target: "/events/core/emitter_registrator.js"
     },

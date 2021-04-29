@@ -420,7 +420,7 @@ var data = [
         target: "/events/core/event_registrator.js"
     },
     {
-        source: "/core/templates/function_template.js",
+        source: "/ui/overlay/ui.overlay.js",
         weight: 4603,
         target: "/core/utils/dom.js"
     },
@@ -445,7 +445,7 @@ var data = [
         target: "/events/core/keyboard_processor.js"
     },
     {
-        source: "/events/short.js",
+        source: "/ui/overlay/ui.overlay.js",
         weight: 1603,
         target: "/events/pointer.js"
     },
@@ -565,12 +565,12 @@ var data = [
         target: "/events/utils/event_nodes_disposing.js"
     },
     {
-        source: "/events/core/emitter.feedback.js",
+        source: "/events/click.js",
         weight: 2715,
         target: "/events/core/emitter.js"
     },
     {
-        source: "/events/core/emitter.feedback.js",
+        source: "/events/drag.js",
         weight: 9524,
         target: "/events/core/emitter_registrator.js"
     },
@@ -640,7 +640,7 @@ var data = [
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/mouse.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },
@@ -765,12 +765,12 @@ var data = [
         target: "/core/http_request.js"
     },
     {
-        source: "/ui/selection/selection.strategy.standard.js",
+        source: "/ui/selection/selection.strategy.deferred.js",
         weight: 482,
         target: "/data/query.js"
     },
     {
-        source: "/ui/selection/selection.strategy.standard.js",
+        source: "/ui/selection/selection.strategy.deferred.js",
         weight: 5899,
         target: "/ui/selection/selection.strategy.js"
     },

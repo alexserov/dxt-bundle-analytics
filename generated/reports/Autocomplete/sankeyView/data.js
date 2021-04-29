@@ -45,7 +45,7 @@ var data = [
         target: "/ui/drop_down_editor/ui.drop_down_list.js"
     },
     {
-        source: "/core/utils/extend.js",
+        source: "/core/utils/common.js",
         weight: 2762,
         target: "/core/utils/type.js"
     },
@@ -900,7 +900,7 @@ var data = [
         target: "/ui/text_box/ui.text_editor.mask.rule.js"
     },
     {
-        source: "/events/drag.js",
+        source: "/events/swipe.js",
         weight: 6790,
         target: "/events/gesture/emitter.gesture.js"
     },
@@ -1010,7 +1010,7 @@ var data = [
         target: "/core/templates/template_engines.js"
     },
     {
-        source: "/ui/text_box/ui.text_editor.base.js",
+        source: "/ui/check_box.js",
         weight: 13132,
         target: "/ui/editor/editor.js"
     },
@@ -1100,7 +1100,7 @@ var data = [
         target: "/ui/text_box/texteditor_button_collection/custom.js"
     },
     {
-        source: "/ui/selection/selection.strategy.deferred.js",
+        source: "/ui/selection/selection.strategy.standard.js",
         weight: 5899,
         target: "/ui/selection/selection.strategy.js"
     },

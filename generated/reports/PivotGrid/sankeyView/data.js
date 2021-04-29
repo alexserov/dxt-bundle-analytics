@@ -175,7 +175,7 @@ var data = [
         target: "/core/class.js"
     },
     {
-        source: "/events/core/events_engine.js",
+        source: "/localization/message.js",
         weight: 1610,
         target: "/core/utils/dependency_injector.js"
     },
@@ -270,7 +270,7 @@ var data = [
         target: "/events/utils/add_namespace.js"
     },
     {
-        source: "/ui/widget/ui.widget.js",
+        source: "/events/utils/index.js",
         weight: 1711,
         target: "/ui/widget/selectors.js"
     },
@@ -350,7 +350,7 @@ var data = [
         target: "/ui/shared/filtering.js"
     },
     {
-        source: "/ui/popup.js",
+        source: "/ui/pivot_grid/ui.pivot_grid.export.js",
         weight: 1517,
         target: "/core/utils/position.js"
     },
@@ -430,7 +430,7 @@ var data = [
         target: "/ui/pivot_grid/data_source.js"
     },
     {
-        source: "/ui/pivot_grid/ui.pivot_grid.data_area.js",
+        source: "/ui/pivot_grid/ui.pivot_grid.fields_area.js",
         weight: 20131,
         target: "/ui/pivot_grid/ui.pivot_grid.area_item.js"
     },
@@ -500,7 +500,7 @@ var data = [
         target: "/core/utils/variable_wrapper.js"
     },
     {
-        source: "/core/utils/data.js",
+        source: "/core/utils/array.js",
         weight: 2481,
         target: "/core/utils/object.js"
     },
@@ -875,12 +875,12 @@ var data = [
         target: "/core/version.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/touch.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/mouse.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },
@@ -1340,7 +1340,7 @@ var data = [
         target: "/ui/text_box/ui.text_editor.mask.js"
     },
     {
-        source: "/ui/list/ui.list.edit.decorator.swipe.js",
+        source: "/ui/list/ui.list.edit.decorator.static.js",
         weight: 3401,
         target: "/ui/list/ui.list.edit.decorator.js"
     },
@@ -1350,7 +1350,7 @@ var data = [
         target: "/ui/list/ui.list.edit.decorator.switchable.js"
     },
     {
-        source: "/ui/list/ui.list.edit.decorator.context.js",
+        source: "/ui/list/ui.list.edit.decorator.switchable.slide.js",
         weight: 844,
         target: "/ui/list/ui.list.edit.decorator_menu_helper.js"
     },
@@ -1440,7 +1440,7 @@ var data = [
         target: "/ui/text_box/texteditor_button_collection/index.js"
     },
     {
-        source: "/ui/text_box/ui.text_editor.mask.strategy.input_events.js",
+        source: "/ui/text_box/ui.text_editor.mask.strategy.default.js",
         weight: 6637,
         target: "/ui/text_box/ui.text_editor.mask.strategy.base.js"
     },

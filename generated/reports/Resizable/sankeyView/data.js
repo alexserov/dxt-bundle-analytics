@@ -135,7 +135,7 @@ var data = [
         target: "/core/utils/data.js"
     },
     {
-        source: "/core/utils/window.js",
+        source: "/core/utils/position.js",
         weight: 5627,
         target: "/core/dom_adapter.js"
     },
@@ -160,7 +160,7 @@ var data = [
         target: "/core/utils/call_once.js"
     },
     {
-        source: "/core/dom_component.js",
+        source: "/animation/translator.js",
         weight: 2926,
         target: "/core/element_data.js"
     },
@@ -250,12 +250,12 @@ var data = [
         target: "/core/class.js"
     },
     {
-        source: "/core/utils/object.js",
+        source: "/core/utils/data.js",
         weight: 815,
         target: "/core/utils/variable_wrapper.js"
     },
     {
-        source: "/core/component_registrator_callbacks.js",
+        source: "/core/element_data.js",
         weight: 943,
         target: "/core/memorized_callbacks.js"
     },
@@ -445,7 +445,7 @@ var data = [
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/mouse.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     }

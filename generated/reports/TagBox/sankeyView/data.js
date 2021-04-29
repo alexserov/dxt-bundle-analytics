@@ -470,7 +470,7 @@ var data = [
         target: "/data/query.js"
     },
     {
-        source: "/data/custom_store.js",
+        source: "/data/array_store.js",
         weight: 7804,
         target: "/data/array_utils.js"
     },
@@ -510,7 +510,7 @@ var data = [
         target: "/ui/editor/ui.data_expression.js"
     },
     {
-        source: "/events/pointer/touch.js",
+        source: "/events/pointer/mspointer.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
@@ -920,7 +920,7 @@ var data = [
         target: "/ui/text_box/ui.text_editor.mask.rule.js"
     },
     {
-        source: "/events/drag.js",
+        source: "/events/swipe.js",
         weight: 6790,
         target: "/events/gesture/emitter.gesture.js"
     },
@@ -975,7 +975,7 @@ var data = [
         target: "/ui/list/ui.list.edit.decorator.switchable.js"
     },
     {
-        source: "/ui/list/ui.list.edit.decorator.switchable.slide.js",
+        source: "/ui/list/ui.list.edit.decorator.context.js",
         weight: 844,
         target: "/ui/list/ui.list.edit.decorator_menu_helper.js"
     },

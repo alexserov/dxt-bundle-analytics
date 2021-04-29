@@ -140,7 +140,7 @@ var data = [
         target: "/core/utils/common.js"
     },
     {
-        source: "/core/utils/window.js",
+        source: "/core/utils/position.js",
         weight: 5627,
         target: "/core/dom_adapter.js"
     },
@@ -295,7 +295,7 @@ var data = [
         target: "/animation/position.js"
     },
     {
-        source: "/ui/drawer/ui.drawer.rendering.strategy.push.js",
+        source: "/ui/drawer/ui.drawer.rendering.strategy.shrink.js",
         weight: 4147,
         target: "/ui/drawer/ui.drawer.rendering.strategy.js"
     },
@@ -490,7 +490,7 @@ var data = [
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/mouse.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },

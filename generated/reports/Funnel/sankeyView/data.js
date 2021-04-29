@@ -75,7 +75,7 @@ var data = [
         target: "/core/utils/object.js"
     },
     {
-        source: "/viz/funnel/funnel.js",
+        source: "/viz/funnel/tooltip.js",
         weight: 8931,
         target: "/core/utils/common.js"
     },
@@ -235,7 +235,7 @@ var data = [
         target: "/core/utils/inflector.js"
     },
     {
-        source: "/viz/core/base_widget.js",
+        source: "/viz/components/tracker.js",
         weight: 5627,
         target: "/core/dom_adapter.js"
     },
@@ -260,7 +260,7 @@ var data = [
         target: "/core/utils/call_once.js"
     },
     {
-        source: "/viz/core/base_widget.js",
+        source: "/viz/components/tracker.js",
         weight: 20806,
         target: "/events/core/events_engine.js"
     },
@@ -270,7 +270,7 @@ var data = [
         target: "/core/element_data.js"
     },
     {
-        source: "/viz/core/base_widget.js",
+        source: "/viz/core/tooltip.js",
         weight: 337,
         target: "/core/renderer.js"
     },

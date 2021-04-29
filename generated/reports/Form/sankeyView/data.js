@@ -685,7 +685,7 @@ var data = [
         target: "/ui/scroll_view/animator.js"
     },
     {
-        source: "/ui/scroll_view/ui.scrollable.native.js",
+        source: "/ui/scroll_view/ui.scrollable.simulated.js",
         weight: 8551,
         target: "/ui/scroll_view/ui.scrollbar.js"
     },
@@ -905,7 +905,7 @@ var data = [
         target: "/core/templates/template.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/touch.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
@@ -1170,7 +1170,7 @@ var data = [
         target: "/ui/load_indicator.js"
     },
     {
-        source: "/ui/text_box/ui.text_editor.mask.strategy.input_events.js",
+        source: "/ui/text_box/ui.text_editor.mask.strategy.default.js",
         weight: 6637,
         target: "/ui/text_box/ui.text_editor.mask.strategy.base.js"
     },

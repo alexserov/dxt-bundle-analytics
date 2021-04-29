@@ -310,7 +310,7 @@ var data = [
         target: "/ui/widget/ui.widget.js"
     },
     {
-        source: "/data/data_source/utils.js",
+        source: "/data/data_source/data_source.js",
         weight: 7985,
         target: "/data/utils.js"
     },
@@ -330,7 +330,7 @@ var data = [
         target: "/data/abstract_store.js"
     },
     {
-        source: "/data/data_source/utils.js",
+        source: "/data/data_source/data_source.js",
         weight: 10866,
         target: "/data/custom_store.js"
     },
@@ -575,7 +575,7 @@ var data = [
         target: "/data/array_query.js"
     },
     {
-        source: "/data/abstract_store.js",
+        source: "/data/custom_store.js",
         weight: 2534,
         target: "/data/store_helper.js"
     },

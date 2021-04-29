@@ -450,7 +450,7 @@ var data = [
         target: "/core/templates/template.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/touch.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },

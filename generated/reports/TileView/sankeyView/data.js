@@ -70,7 +70,7 @@ var data = [
         target: "/ui/collection/ui.collection_widget.edit.js"
     },
     {
-        source: "/core/component_registrator.js",
+        source: "/core/devices.js",
         weight: 3435,
         target: "/core/errors.js"
     },
@@ -90,12 +90,12 @@ var data = [
         target: "/core/utils/callbacks.js"
     },
     {
-        source: "/core/utils/common.js",
+        source: "/ui/collection/ui.collection_widget.edit.js",
         weight: 5377,
         target: "/core/utils/deferred.js"
     },
     {
-        source: "/core/utils/common.js",
+        source: "/ui/collection/ui.collection_widget.edit.js",
         weight: 6134,
         target: "/core/utils/data.js"
     },
@@ -195,7 +195,7 @@ var data = [
         target: "/core/utils/error.js"
     },
     {
-        source: "/core/guid.js",
+        source: "/core/utils/data.js",
         weight: 4675,
         target: "/core/class.js"
     },
@@ -625,12 +625,12 @@ var data = [
         target: "/core/http_request.js"
     },
     {
-        source: "/ui/selection/selection.strategy.deferred.js",
+        source: "/ui/selection/selection.strategy.standard.js",
         weight: 482,
         target: "/data/query.js"
     },
     {
-        source: "/ui/selection/selection.strategy.deferred.js",
+        source: "/ui/selection/selection.strategy.standard.js",
         weight: 5899,
         target: "/ui/selection/selection.strategy.js"
     },
@@ -685,7 +685,7 @@ var data = [
         target: "/events/core/keyboard_processor.js"
     },
     {
-        source: "/events/pointer/touch.js",
+        source: "/events/pointer/mspointer.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
@@ -700,7 +700,7 @@ var data = [
         target: "/events/core/wheel.js"
     },
     {
-        source: "/ui/scroll_view/ui.scrollable.simulated.js",
+        source: "/ui/scroll_view/ui.scrollable.native.js",
         weight: 8551,
         target: "/ui/scroll_view/ui.scrollbar.js"
     },

@@ -225,7 +225,7 @@ var data = [
         target: "/core/utils/error.js"
     },
     {
-        source: "/core/utils/data.js",
+        source: "/core/guid.js",
         weight: 4675,
         target: "/core/class.js"
     },
@@ -340,7 +340,7 @@ var data = [
         target: "/viz/themes.js"
     },
     {
-        source: "/viz/core/base_widget.js",
+        source: "/viz/components/chart_theme_manager.js",
         weight: 3768,
         target: "/viz/core/base_theme_manager.js"
     },
@@ -635,7 +635,7 @@ var data = [
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/mouse.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },

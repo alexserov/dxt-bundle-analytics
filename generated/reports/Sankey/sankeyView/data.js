@@ -310,7 +310,7 @@ var data = [
         target: "/core/utils/public_component.js"
     },
     {
-        source: "/events/hover.js",
+        source: "/viz/components/tracker.js",
         weight: 6254,
         target: "/events/utils/index.js"
     },
@@ -630,12 +630,12 @@ var data = [
         target: "/ui/widget/selectors.js"
     },
     {
-        source: "/events/pointer/touch.js",
+        source: "/events/pointer/mspointer.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mouse.js",
+        source: "/events/pointer/mspointer.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },
@@ -790,7 +790,7 @@ var data = [
         target: "/events/core/keyboard_processor.js"
     },
     {
-        source: "/data/data_source/utils.js",
+        source: "/data/data_source/data_source.js",
         weight: 7985,
         target: "/data/utils.js"
     },
@@ -810,7 +810,7 @@ var data = [
         target: "/data/abstract_store.js"
     },
     {
-        source: "/data/data_source/utils.js",
+        source: "/data/data_source/data_source.js",
         weight: 10866,
         target: "/data/custom_store.js"
     },
@@ -900,7 +900,7 @@ var data = [
         target: "/data/array_query.js"
     },
     {
-        source: "/data/abstract_store.js",
+        source: "/data/custom_store.js",
         weight: 2534,
         target: "/data/store_helper.js"
     },

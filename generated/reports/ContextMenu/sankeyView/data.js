@@ -195,7 +195,7 @@ var data = [
         target: "/core/utils/public_component.js"
     },
     {
-        source: "/animation/position.js",
+        source: "/animation/fx.js",
         weight: 4136,
         target: "/animation/translator.js"
     },
@@ -235,7 +235,7 @@ var data = [
         target: "/core/utils/view_port.js"
     },
     {
-        source: "/animation/position.js",
+        source: "/animation/fx.js",
         weight: 2984,
         target: "/core/utils/support.js"
     },
@@ -550,12 +550,12 @@ var data = [
         target: "/events/core/emitter.js"
     },
     {
-        source: "/events/pointer/touch.js",
+        source: "/events/pointer/mouse.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/mouse.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },
@@ -585,7 +585,7 @@ var data = [
         target: "/events/utils/event_nodes_disposing.js"
     },
     {
-        source: "/ui/collection/ui.collection_widget.base.js",
+        source: "/ui/widget/ui.search_box_mixin.js",
         weight: 4095,
         target: "/localization/message.js"
     },
@@ -600,7 +600,7 @@ var data = [
         target: "/data/errors.js"
     },
     {
-        source: "/data/store_helper.js",
+        source: "/data/data_source/data_source.js",
         weight: 7985,
         target: "/data/utils.js"
     },
@@ -740,7 +740,7 @@ var data = [
         target: "/core/http_request.js"
     },
     {
-        source: "/ui/selection/selection.strategy.standard.js",
+        source: "/ui/selection/selection.strategy.deferred.js",
         weight: 5899,
         target: "/ui/selection/selection.strategy.js"
     },

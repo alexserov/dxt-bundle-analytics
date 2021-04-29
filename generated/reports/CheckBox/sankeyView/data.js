@@ -175,7 +175,7 @@ var data = [
         target: "/core/utils/public_component.js"
     },
     {
-        source: "/ui/editor/editor.js",
+        source: "/events/click.js",
         weight: 4603,
         target: "/core/utils/dom.js"
     },
@@ -240,17 +240,17 @@ var data = [
         target: "/core/utils/error.js"
     },
     {
-        source: "/ui/validation_engine.js",
+        source: "/events/core/emitter.js",
         weight: 4675,
         target: "/core/class.js"
     },
     {
-        source: "/ui/widget/ui.widget.js",
+        source: "/events/core/emitter_registrator.js",
         weight: 3954,
         target: "/core/utils/array.js"
     },
     {
-        source: "/ui/validation_engine.js",
+        source: "/core/utils/common.js",
         weight: 5377,
         target: "/core/utils/deferred.js"
     },
@@ -260,7 +260,7 @@ var data = [
         target: "/core/utils/data.js"
     },
     {
-        source: "/core/element_data.js",
+        source: "/core/component_registrator_callbacks.js",
         weight: 943,
         target: "/core/memorized_callbacks.js"
     },
@@ -430,7 +430,7 @@ var data = [
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/mouse.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },

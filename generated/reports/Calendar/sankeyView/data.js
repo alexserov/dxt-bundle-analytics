@@ -120,7 +120,7 @@ var data = [
         target: "/ui/calendar/ui.calendar.views.js"
     },
     {
-        source: "/core/devices.js",
+        source: "/core/utils/common.js",
         weight: 1326,
         target: "/core/utils/iterator.js"
     },
@@ -145,7 +145,7 @@ var data = [
         target: "/core/utils/dependency_injector.js"
     },
     {
-        source: "/core/devices.js",
+        source: "/core/utils/common.js",
         weight: 2151,
         target: "/core/config.js"
     },
@@ -665,7 +665,7 @@ var data = [
         target: "/core/templates/template.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/touch.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },

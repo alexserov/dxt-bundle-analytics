@@ -395,7 +395,7 @@ var data = [
         target: "/core/utils/variable_wrapper.js"
     },
     {
-        source: "/core/utils/array.js",
+        source: "/core/utils/data.js",
         weight: 2481,
         target: "/core/utils/object.js"
     },
@@ -860,7 +860,7 @@ var data = [
         target: "/ui/load_indicator.js"
     },
     {
-        source: "/ui/text_box/ui.text_editor.mask.strategy.input_events.js",
+        source: "/ui/text_box/ui.text_editor.mask.strategy.default.js",
         weight: 6637,
         target: "/ui/text_box/ui.text_editor.mask.strategy.base.js"
     },
@@ -1015,7 +1015,7 @@ var data = [
         target: "/ui/selection/selection.strategy.standard.js"
     },
     {
-        source: "/ui/list/ui.list.edit.decorator.context.js",
+        source: "/ui/list/ui.list.edit.decorator.swipe.js",
         weight: 3401,
         target: "/ui/list/ui.list.edit.decorator.js"
     },
@@ -1025,7 +1025,7 @@ var data = [
         target: "/ui/list/ui.list.edit.decorator.switchable.js"
     },
     {
-        source: "/ui/list/ui.list.edit.decorator.context.js",
+        source: "/ui/list/ui.list.edit.decorator.switchable.slide.js",
         weight: 844,
         target: "/ui/list/ui.list.edit.decorator_menu_helper.js"
     },
@@ -1070,7 +1070,7 @@ var data = [
         target: "/core/templates/template_engines.js"
     },
     {
-        source: "/ui/selection/selection.strategy.deferred.js",
+        source: "/ui/selection/selection.strategy.standard.js",
         weight: 5899,
         target: "/ui/selection/selection.strategy.js"
     },
@@ -1130,7 +1130,7 @@ var data = [
         target: "/ui/scroll_view/ui.events.emitter.gesture.scroll.js"
     },
     {
-        source: "/ui/scroll_view/ui.scrollable.simulated.js",
+        source: "/ui/scroll_view/ui.scrollable.native.js",
         weight: 8551,
         target: "/ui/scroll_view/ui.scrollbar.js"
     }

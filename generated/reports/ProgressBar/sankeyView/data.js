@@ -115,7 +115,7 @@ var data = [
         target: "/core/memorized_callbacks.js"
     },
     {
-        source: "/ui/editor/editor.js",
+        source: "/core/utils/public_component.js",
         weight: 20806,
         target: "/events/core/events_engine.js"
     },
@@ -145,7 +145,7 @@ var data = [
         target: "/events/utils/index.js"
     },
     {
-        source: "/animation/fx.js",
+        source: "/core/utils/public_component.js",
         weight: 1034,
         target: "/core/remove_event.js"
     },
@@ -205,7 +205,7 @@ var data = [
         target: "/core/utils/console.js"
     },
     {
-        source: "/ui/validation_message.js",
+        source: "/core/utils/error.js",
         weight: 2780,
         target: "/core/utils/string.js"
     },
@@ -405,12 +405,12 @@ var data = [
         target: "/events/utils/event_nodes_disposing.js"
     },
     {
-        source: "/events/core/emitter.feedback.js",
+        source: "/events/click.js",
         weight: 2715,
         target: "/events/core/emitter.js"
     },
     {
-        source: "/events/core/emitter.feedback.js",
+        source: "/events/click.js",
         weight: 9524,
         target: "/events/core/emitter_registrator.js"
     },
@@ -570,7 +570,7 @@ var data = [
         target: "/core/options/option_manager.js"
     },
     {
-        source: "/core/templates/empty_template.js",
+        source: "/core/utils/template_manager.js",
         weight: 1612,
         target: "/core/templates/template_base.js"
     },
@@ -585,7 +585,7 @@ var data = [
         target: "/core/templates/template.js"
     },
     {
-        source: "/events/pointer/mspointer.js",
+        source: "/events/pointer/touch.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },

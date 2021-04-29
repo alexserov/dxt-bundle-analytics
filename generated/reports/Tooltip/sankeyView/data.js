@@ -220,7 +220,7 @@ var data = [
         target: "/core/remove_event.js"
     },
     {
-        source: "/ui/popup.js",
+        source: "/core/utils/position.js",
         weight: 2253,
         target: "/core/utils/browser.js"
     },
@@ -430,7 +430,7 @@ var data = [
         target: "/ui/collection/ui.collection_widget.async.js"
     },
     {
-        source: "/ui/overlay/ui.overlay.js",
+        source: "/core/templates/function_template.js",
         weight: 4603,
         target: "/core/utils/dom.js"
     },
@@ -455,7 +455,7 @@ var data = [
         target: "/events/core/keyboard_processor.js"
     },
     {
-        source: "/ui/overlay/ui.overlay.js",
+        source: "/events/short.js",
         weight: 1603,
         target: "/events/pointer.js"
     },
@@ -580,7 +580,7 @@ var data = [
         target: "/events/core/emitter.js"
     },
     {
-        source: "/events/drag.js",
+        source: "/events/click.js",
         weight: 9524,
         target: "/events/core/emitter_registrator.js"
     },
@@ -660,7 +660,7 @@ var data = [
         target: "/events/core/wheel.js"
     },
     {
-        source: "/data/data_source/utils.js",
+        source: "/data/data_source/data_source.js",
         weight: 7985,
         target: "/data/utils.js"
     },
@@ -680,7 +680,7 @@ var data = [
         target: "/data/abstract_store.js"
     },
     {
-        source: "/data/data_source/utils.js",
+        source: "/data/data_source/data_source.js",
         weight: 10866,
         target: "/data/custom_store.js"
     },
@@ -775,12 +775,12 @@ var data = [
         target: "/core/http_request.js"
     },
     {
-        source: "/ui/selection/selection.strategy.deferred.js",
+        source: "/ui/selection/selection.strategy.standard.js",
         weight: 482,
         target: "/data/query.js"
     },
     {
-        source: "/ui/selection/selection.strategy.deferred.js",
+        source: "/ui/selection/selection.strategy.standard.js",
         weight: 5899,
         target: "/ui/selection/selection.strategy.js"
     },

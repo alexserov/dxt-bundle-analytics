@@ -120,7 +120,7 @@ var data = [
         target: "/core/config.js"
     },
     {
-        source: "/ui/pivot_grid/ui.pivot_grid.field_chooser_base.js",
+        source: "/ui/pivot_grid/ui.pivot_grid.utils.js",
         weight: 5377,
         target: "/core/utils/deferred.js"
     },
@@ -200,7 +200,7 @@ var data = [
         target: "/data/abstract_store.js"
     },
     {
-        source: "/ui/pivot_grid/ui.pivot_grid.field_chooser_base.js",
+        source: "/ui/pivot_grid/ui.pivot_grid.utils.js",
         weight: 2056,
         target: "/data/array_store.js"
     },
@@ -290,7 +290,7 @@ var data = [
         target: "/core/utils/variable_wrapper.js"
     },
     {
-        source: "/core/utils/common.js",
+        source: "/ui/context_menu/ui.context_menu.js",
         weight: 1210,
         target: "/core/guid.js"
     },
@@ -325,7 +325,7 @@ var data = [
         target: "/core/utils/call_once.js"
     },
     {
-        source: "/core/utils/public_component.js",
+        source: "/core/renderer_base.js",
         weight: 2926,
         target: "/core/element_data.js"
     },
@@ -380,7 +380,7 @@ var data = [
         target: "/localization/currency.js"
     },
     {
-        source: "/format_helper.js",
+        source: "/localization/date.js",
         weight: 11840,
         target: "/localization/number.js"
     },
@@ -470,7 +470,7 @@ var data = [
         target: "/ui/widget/selectors.js"
     },
     {
-        source: "/ui/pivot_grid/ui.sortable.js",
+        source: "/ui/context_menu/ui.context_menu.js",
         weight: 6254,
         target: "/events/utils/index.js"
     },
@@ -605,7 +605,7 @@ var data = [
         target: "/ui/list.js"
     },
     {
-        source: "/ui/pivot_grid/local_store.js",
+        source: "/ui/pivot_grid/remote_store.js",
         weight: 5463,
         target: "/core/utils/date_serialization.js"
     },
@@ -675,7 +675,7 @@ var data = [
         target: "/data/query_implementation.js"
     },
     {
-        source: "/core/dom_component.js",
+        source: "/core/devices.js",
         weight: 2235,
         target: "/core/utils/resize_callbacks.js"
     },
@@ -685,7 +685,7 @@ var data = [
         target: "/core/utils/storage.js"
     },
     {
-        source: "/ui/widget/swatch_container.js",
+        source: "/core/devices.js",
         weight: 1120,
         target: "/core/utils/view_port.js"
     },
@@ -760,7 +760,7 @@ var data = [
         target: "/events/pointer/mouse_and_touch.js"
     },
     {
-        source: "/ui/popup.js",
+        source: "/animation/fx.js",
         weight: 4136,
         target: "/animation/translator.js"
     },
@@ -900,7 +900,7 @@ var data = [
         target: "/core/utils/template_manager.js"
     },
     {
-        source: "/events/pointer/mouse_and_touch.js",
+        source: "/events/pointer/touch.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
@@ -1045,7 +1045,7 @@ var data = [
         target: "/ui/scroll_view/animator.js"
     },
     {
-        source: "/ui/scroll_view/ui.scrollable.simulated.js",
+        source: "/ui/scroll_view/ui.scrollable.native.js",
         weight: 8551,
         target: "/ui/scroll_view/ui.scrollbar.js"
     },

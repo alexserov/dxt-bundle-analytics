@@ -295,7 +295,7 @@ var data = [
         target: "/core/utils/error.js"
     },
     {
-        source: "/core/utils/data.js",
+        source: "/core/guid.js",
         weight: 4675,
         target: "/core/class.js"
     },
@@ -485,17 +485,17 @@ var data = [
         target: "/ui/text_box/text_box.js"
     },
     {
-        source: "/data/data_source/data_source.js",
+        source: "/data/array_store.js",
         weight: 7985,
         target: "/data/utils.js"
     },
     {
-        source: "/data/data_source/data_source.js",
+        source: "/data/array_store.js",
         weight: 2590,
         target: "/data/errors.js"
     },
     {
-        source: "/data/data_source/data_source.js",
+        source: "/data/array_store.js",
         weight: 7804,
         target: "/data/array_utils.js"
     },
@@ -535,7 +535,7 @@ var data = [
         target: "/ui/toolbar/ui.toolbar.base.js"
     },
     {
-        source: "/data/data_source/utils.js",
+        source: "/core/utils/array.js",
         weight: 397,
         target: "./node_modules/@babel/runtime/helpers/esm/extends.js"
     },
@@ -585,12 +585,12 @@ var data = [
         target: "/core/template_manager.js"
     },
     {
-        source: "/events/pointer/touch.js",
+        source: "/events/pointer/mspointer.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
     {
-        source: "/events/pointer/mouse.js",
+        source: "/events/pointer/mspointer.js",
         weight: 1887,
         target: "/events/pointer/observer.js"
     },
@@ -625,7 +625,7 @@ var data = [
         target: "/data/array_query.js"
     },
     {
-        source: "/data/custom_store.js",
+        source: "/data/abstract_store.js",
         weight: 2534,
         target: "/data/store_helper.js"
     },
@@ -870,7 +870,7 @@ var data = [
         target: "/ui/load_indicator.js"
     },
     {
-        source: "/ui/text_box/ui.text_editor.mask.strategy.input_events.js",
+        source: "/ui/text_box/ui.text_editor.mask.strategy.default.js",
         weight: 6637,
         target: "/ui/text_box/ui.text_editor.mask.strategy.base.js"
     },

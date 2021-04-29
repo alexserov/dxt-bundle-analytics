@@ -750,12 +750,12 @@ var data = [
         target: "/ui/widget/swatch_container.js"
     },
     {
-        source: "/ui/popup.js",
+        source: "/ui/grid_core/ui.grid_core.filter_row.js",
         weight: 323,
         target: "/ui/overlay.js"
     },
     {
-        source: "/ui/grid_core/ui.grid_core.header_filter.js",
+        source: "/ui/grid_core/ui.grid_core.columns_controller.js",
         weight: 6121,
         target: "/localization/date.js"
     },
@@ -805,7 +805,7 @@ var data = [
         target: "/data/query_implementation.js"
     },
     {
-        source: "/ui/grid_core/ui.grid_core.header_filter.js",
+        source: "/ui/grid_core/ui.grid_core.columns_controller.js",
         weight: 3934,
         target: "/data/data_source/utils.js"
     },
@@ -860,7 +860,7 @@ var data = [
         target: "/ui/editor/editor.js"
     },
     {
-        source: "/ui/grid_core/ui.grid_core.selection.js",
+        source: "/ui/grid_core/ui.grid_core.editing_cell_based.js",
         weight: 1760,
         target: "/events/hold.js"
     },
@@ -945,7 +945,7 @@ var data = [
         target: "/ui/dialog.js"
     },
     {
-        source: "/ui/grid_core/ui.grid_core.editing_row_based.js",
+        source: "/ui/grid_core/ui.grid_core.editing_cell_based.js",
         weight: 1468,
         target: "/ui/grid_core/ui.grid_core.editing_constants.js"
     },
@@ -1760,7 +1760,7 @@ var data = [
         target: "/ui/hierarchical_collection/ui.data_adapter.js"
     },
     {
-        source: "/ui/context_menu/ui.menu_base.edit.strategy.js",
+        source: "/ui/list/ui.list.edit.strategy.grouped.js",
         weight: 3072,
         target: "/ui/collection/ui.collection_widget.edit.strategy.plain.js"
     },
@@ -1770,7 +1770,7 @@ var data = [
         target: "/ui/collection/ui.collection_widget.edit.js"
     },
     {
-        source: "/ui/toolbar/ui.toolbar.strategy.action_sheet.js",
+        source: "/ui/toolbar/ui.toolbar.strategy.drop_down_menu.js",
         weight: 3986,
         target: "/ui/toolbar/ui.toolbar.strategy.js"
     },
@@ -1970,7 +1970,7 @@ var data = [
         target: "/ui/list/ui.list.edit.decorator.switchable.js"
     },
     {
-        source: "/ui/list/ui.list.edit.decorator.context.js",
+        source: "/ui/list/ui.list.edit.decorator.switchable.slide.js",
         weight: 844,
         target: "/ui/list/ui.list.edit.decorator_menu_helper.js"
     },
@@ -2305,7 +2305,7 @@ var data = [
         target: "/ui/calendar.js"
     },
     {
-        source: "/ui/date_box/ui.date_box.strategy.native.js",
+        source: "/ui/date_box/ui.date_box.strategy.calendar.js",
         weight: 3672,
         target: "/ui/date_box/ui.date_box.strategy.js"
     },

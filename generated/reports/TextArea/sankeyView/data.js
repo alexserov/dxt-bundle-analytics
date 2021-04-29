@@ -260,7 +260,7 @@ var data = [
         target: "/core/memorized_callbacks.js"
     },
     {
-        source: "/core/utils/public_component.js",
+        source: "/core/renderer_base.js",
         weight: 2926,
         target: "/core/element_data.js"
     },
@@ -305,7 +305,7 @@ var data = [
         target: "/core/utils/view_port.js"
     },
     {
-        source: "/events/pointer/touch.js",
+        source: "/events/pointer/mspointer.js",
         weight: 3184,
         target: "/events/pointer/base.js"
     },
@@ -450,7 +450,7 @@ var data = [
         target: "/ui/load_indicator.js"
     },
     {
-        source: "/ui/text_box/ui.text_editor.mask.strategy.input_events.js",
+        source: "/ui/text_box/ui.text_editor.mask.strategy.default.js",
         weight: 6637,
         target: "/ui/text_box/ui.text_editor.mask.strategy.base.js"
     },
