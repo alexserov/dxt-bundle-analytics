@@ -205,4 +205,4 @@ export async function performCleanup(){
     });
 }
 
-export default gulp.series(processWidgets, prettyPrintJSONFiles, buildMetadata, buildSankeyData, performCleanup);
+export default gulp.series(processWidgets, prettyPrintJSONFiles, buildMetadata, buildSankeyData);

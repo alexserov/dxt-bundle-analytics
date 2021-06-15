@@ -3,8 +3,17 @@ $.getJSON('../generated/sizes.json', (data) => {
      $("#list").dxList({
           dataSource: data,
           displayExpr: (item) => {
-               return item.name + ': ' + Math.round(item.size) + ' Kb';
+               const size = Math.round(item.size);
+               return `${item.name}: <b>${size}</b> Kb`;
           },
+          itemTemplate: (item) => {
+               const size = Math.round(item.size);
+               const displayContent = $('<div>').html(
+                    `${item.name}: <b>${size}</b> kb`
+               );
+               return displayContent;
+          },
+          wrapItemText: true,
           selectionMode: 'single',
           showSelectionControls: true,
           onSelectionChanged: (data) => {
@@ -30,7 +39,7 @@ $.getJSON('../generated/sizes.json', (data) => {
                               src: data.text,
                               height: '100%',
                               width: '100%'    
-                              });
+                         });
                          element.append($iframe);
                     }
                });

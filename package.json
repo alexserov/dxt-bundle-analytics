@@ -6,8 +6,11 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp",    
-    "watch": "webpack --watch"
+    "build": "webpack --mode=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production",
+    "watch": "webpack --watch",
+    "start": "http-server -c-1 -p 8080 -o index.html"
   },
   "repository": {
     "type": "git",
@@ -39,7 +42,7 @@
     "webpack-stream": "^6.1.2"
   },
   "dependencies": {
-    "devextreme": "^21.1.2-beta",
+    "devextreme": "../devextreme/artifacts/npm/devextreme",
     "http-server": "^0.12.3",
     "through2": "^4.0.2"
   }
